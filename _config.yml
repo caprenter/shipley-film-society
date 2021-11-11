@@ -1,0 +1,14 @@
+  
+title: "Shipley Film Society" # the name of your site, e.g. ACME Corp.
+tagline: "Bringing great cinema to our little corner of Yorkshire"
+email: info@shipleyfilmsociety.org.uk
+description: >- # this means to ignore newlines until "baseurl:"
+ Shipley Film Society is a community run pop-up cinema, bringing great fim around the world to our little corner of Yorkshire.
+ 
+author: Shipley Film Society
+url: "http://www.shipleyfilmsociety.org.uk/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+#google_analytics: UA-111111111-1
+#twitter:
+#  username: 
+#  card: summary #keep this to generate a twitter share card

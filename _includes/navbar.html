@@ -1,0 +1,14 @@
+<nav class="theme blm">
+    <div id="navTrigger" class="blm">
+      <i class="fa fa-plus"></i>
+      <span></span>
+    </div>
+    <ul>
+      
+        {% for item in site.data.navbar %}
+        <li><a class="nav-item nav-link" href="{{item.link}}">{{ item.name }}</a></li>
+        {% endfor %}  
+      
+     
+    </ul>
+</nav>

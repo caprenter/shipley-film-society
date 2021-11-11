@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html lang="en" class="ie8"><![endif]-->
+<!--[if IE 9 ]><html lang="en" class="ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html lang="en"><!--<![endif]-->
+
+<head>	
+		<!-- Flip 1.1.9 -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.0";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="referrer" content="same-origin" />
+  <meta name="description" content="{{ site.description }}" />
+  <meta name="robots" content="index, follow" />
+  <meta name="generator" content="RapidWeaver" />
+  
+  <link rel="apple-touch-icon" sizes="167x167" href="http://www.shipleyfilmsociety.org.uk/resources/medium.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="http://www.shipleyfilmsociety.org.uk/resources/video-camera.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="http://www.shipleyfilmsociety.org.uk/resources/small.png" />
+  <link rel="icon" type="image/png" href="http://www.shipleyfilmsociety.org.uk/resources/favicon_medium.png" sizes="32x32" />
+  <link rel="mask-icon" href="http://www.shipleyfilmsociety.org.uk/resources/pinned_tab_icon.png" color="#FFFFFF" /><link rel="icon" type="image/png" href="http://www.shipleyfilmsociety.org.uk/resources/favicon_small.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="http://www.shipleyfilmsociety.org.uk/resources/favicon_large.png" sizes="64x64" />
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@shipleyfilm">
+	<meta name="twitter:creator" content="@shipleyfilm">
+	<meta name="twitter:title" content="{{ site.title }}">
+	<meta name="twitter:description" content="{{ site.description }}">
+	<meta name="twitter:url" content="http://www.shipleyfilmsociety.org.uk/index.html">
+	
+  <meta property="og:type" content="website">
+	<meta property="og:site_name" content="{{ site.title }}">
+	<meta property="og:title" content="{{ site.title }}">
+	<meta property="og:description" content="{{ site.description }}">
+	<meta property="og:url" content="http://www.shipleyfilmsociety.org.uk/index.html">
+		
+  <meta name="viewport" content="initial-scale=1 maximum-scale=1"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  
+  <meta name="baseurl" content="http://www.shipleyfilmsociety.org.uk/">
+  
+  <title>{{ site.title }} - {{ page.title }}</title>
+  
+  <link rel="stylesheet" type="text/css" media="all" href="{{ base.url }}/rw_common/themes/flip/consolidated.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/47089/SocialIconsNCD/style-cf.css">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open%20Sans:400,700">
+			
+  <!--[if lt IE 9]><script src="%pathto(ie.js)%"></script><![endif]-->
+  <link rel="stylesheet" type="text/css" media="all" href="{{ base.url }}/rw_common/plugins/stacks/stacks.css" />
+  <link rel="stylesheet" type="text/css" media="all" href="{{ base.url }}/files/stacks_page_page0.css" />
+  <!--<link rel="stylesheet" type="text/css" media="all" href="{{ base.url }}/files/stacks_page_page8.css" />-->
+
+  <meta name="formatter" content="Stacks v3.6.9 (4242)" >
+  <meta class="stacks3 stack version" id="com.joeworkman.stacks.link" name="Link" content="3.1.0">
+  
+  <link rel="stylesheet" type="text/css" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" >
+  
+  <style type="text/css" media="all">
+    .pt-page-2,.pt-page-1:before{background-image:url('{{ base.url }}/{{ page.background-image }}');}
+
+    #icons ul {
+        overflow: auto;
+    }
+     
+    #icons ul li {
+        list-style-type: none;
+        float: right;
+    }
+     
+    #icons ul li a i {
+        background: #205D7A;
+        color: #fff;
+        width: 32px;
+        height: 26px;
+        border-radius: 5px;
+        font-size: 20px;
+        text-align: center;
+        margin-left: 10px;
+        padding-top: 15%;
+        transition: all 0.2s ease-in-out;
+    }
+
+    #icons .fa-facebook {
+        background:#3b5998
+    } 
+    #icons .fa-envelop-oblique {
+        background:#007bb6
+    }
+    #icons .fa-twitter {
+        background:#00aced
+        }
+    #icons .fa-map-marker {
+        background:#dd4b39
+    }
+    #icons .fa-home {
+        background:#ff6666
+    }
+    #icons ul li a i:hover {
+        opacity: .7;
+    }
+
+    </style>
+</head>
+<body>
+
+  <div id="wrapper">
+    <div class="spinner"></div>
+    <div id="si-l"></div>
+    <div id="theme-content">
+      <div id="theme-content-inner">
+        <div id="container">
+          <div id="container-padding">
+            <div id="container-inner">
+              
+              <header class="theme cf">
+                <div id="siteInfo">
+                  <div id="site-logo"></div>
+                  <h1>{{ site.title }}</h1>
+                  <span>{{ site.tagline }} </span>
+                </div>
+               {% include navbar.html %}
+              </header>
+              
+              <div id="si-r" class="cf"></div>
+              <div id="section-container">
+                <section class="theme scroll">
+                  
+                  <div id="con-above"></div>
+                    <div id='stacks_out_0_page0' class='stacks_top'>
+                      {% if page.title == "Home" %}
+                      <div id='stacks_in_0_page0' class=''>
+                      {% endif %}
+                                        
+                        {{ content }}
+                  
+                      <div id='stacks_out_7801_page0' class='stacks_out'>
+                        <div id='stacks_in_7801_page0' class='stacks_in text_stack'>
+                        <hr class="theme">
+                        <br />
+                        <span style="font-size:16px; color:#FF6666;font-weight:bold; ">Venue</span>
+                        <span style="font-size:15px; "><br />All films are shown at the </span>
+                        <span style="font-size:15px; ">
+                          <a href="http://www.kirkgatecentre.org.uk" rel="external">Kirkgate Centre</a>
+                        </span>
+                        <span style="font-size:15px; "> in Shipley unless stated otherwise. The Kirkgate Centre is situated directly opposite Shipley Town Hall:<br />
+                        <br />Kirkgate Centre <br />39a Kirkgate<br />Shipley<br />BD18 3EH<br /></span>
+                        <span style="font-size:15px; "><br /></span><span style="font-size:16px; color:#FF6666;font-weight:bold; ">Bradford Metropolitan Foodbank</span>
+                        <span style="font-size:14px; color:#333333;font-weight:bold; "><br /></span>
+                        <span style="font-size:14px; color:#333333;">We ask everyone to bring a non-perishable food item for those struggling to feed themselves or their family. <br />
+                        We look forward to the day when this is no longer necessary.</span>
+                        <span style="font-size:15px; "><br /></span>
+                      </div>
+                    </div>
+                    <div id='stacks_out_568_page0' class='stacks_out'>
+                      <div id='stacks_in_568_page0' class='stacks_in text_stack'>
+                        <span style="font-size:17px; color:#FF6666;font-weight:bold; ">Join our email list<br /></span>
+                        <span style="font-size:14px; color:#333333;">Receive reminders about upcoming films and special events such as family film shows and mini-seasons. You can join by adding your email address here:<br /><br /></span>
+                        <!-- Begin MailChimp Signup Form -->
+                        <link href="http://cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+                        <style type="text/css">
+                          #mc_embed_signup{background:#fff; clear:left; font:12px Helvetica,Arial,sans-serif; }
+                          /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+                             We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                        </style>
+                        <div id="mc_embed_signup">
+                        <form action="//shipleyfilmsociety.us4.list-manage.com/subscribe/post?u=866985097deeb0313d3c363a7&amp;id=ae720000b9" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                            <div id="mc_embed_signup_scroll">
+                        <div class="mc-field-group">
+                          <label for="mce-EMAIL">Email Address </label>
+                          <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                        </div>
+                          <div id="mce-responses" class="clear">
+                            <div class="response" id="mce-error-response" style="display:none"></div>
+                            <div class="response" id="mce-success-response" style="display:none"></div>
+                          </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_866985097deeb0313d3c363a7_ae720000b9" tabindex="-1" value=""></div>
+                            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                            </div>
+                        </form>
+                        </div>
+                        <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+                        <!--End mc_embed_signup--></div></div><div id='stacks_out_451_page0' class='stacks_out'><div id='stacks_in_451_page0' class='stacks_in text_stack'><div id="icons">
+                        <ul>
+                          <li><a href="http://twitter.com/shipleyfilm" title="Find us on Twitter"><i class="fa fa-twitter"></i></a></li>
+                          <li><a href="http://facebook.com/shipleyfilm" title="Find us on Facebook"><i class="fa fa-facebook"></i></a></li> 
+                          <li><a href="{{ site.url }}/contact/" title="Contact us"><i class="fa fa-envelope-o"></i></a></li>
+                          <li><a href="http://shipleyfilmsociety.org.uk/about-us" title="All you need to know about Shipley Film Society"><i class="fa fa-info-circle"></i> </a></li>
+                          <li><a href="https://www.google.co.uk/maps/place/Kirkgate+Centre/@53.8339731,-1.7811685,17z/data=!4m2!3m1!1s0x0000000000000000:0xca1123ec9aa18c59"><i class="fa fa-map-marker" title="Find us on Google Maps"></i> </a></li>  
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                {% if page.title == "Home" %}
+                </div>
+                {% endif %}
+              </div>				
+                  <div id="con-below"></div>
+                
+                </section>
+              </div><!-- #section-container -->
+              <footer class="theme"></footer>
+            </div><!-- #container-inner -->
+          </div><!-- #container-padding -->
+        </div><!-- #container -->
+      </div><!-- #theme-content-inner -->
+    </div><!-- #theme-content -->
+    
+    {% include theme_feature.html %}
+  
+  </div><!-- #wrapper -->
+  
+  {% include footer.html %}
+
+
+</body>
+</html>
