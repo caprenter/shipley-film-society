@@ -6,7 +6,7 @@
     <ul>
       
         {% for item in site.data.navbar %}
-        <li><a class="nav-item nav-link" href="{{item.link}}">{{ item.name }}</a></li>
+        <li><a class="nav-item nav-link" href="{{item.link | relative_url }}">{{ item.name }}</a></li>
         {% endfor %}  
       
      

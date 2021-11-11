@@ -20,41 +20,42 @@
   <meta name="robots" content="index, follow" />
   <meta name="generator" content="RapidWeaver" />
   
-  <link rel="apple-touch-icon" sizes="167x167" href="http://www.shipleyfilmsociety.org.uk/resources/medium.png" />
-  <link rel="apple-touch-icon" sizes="180x180" href="http://www.shipleyfilmsociety.org.uk/resources/video-camera.png" />
-  <link rel="apple-touch-icon" sizes="152x152" href="http://www.shipleyfilmsociety.org.uk/resources/small.png" />
-  <link rel="icon" type="image/png" href="http://www.shipleyfilmsociety.org.uk/resources/favicon_medium.png" sizes="32x32" />
-  <link rel="mask-icon" href="http://www.shipleyfilmsociety.org.uk/resources/pinned_tab_icon.png" color="#FFFFFF" /><link rel="icon" type="image/png" href="http://www.shipleyfilmsociety.org.uk/resources/favicon_small.png" sizes="16x16" />
-  <link rel="icon" type="image/png" href="http://www.shipleyfilmsociety.org.uk/resources/favicon_large.png" sizes="64x64" />
+  <link rel="apple-touch-icon" sizes="167x167" href="{{ 'resources/medium.png' | relative_url }}" />
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ 'resources/video-camera.png' | relative_url }}" />
+  <link rel="apple-touch-icon" sizes="152x152" href="{{ 'resources/small.png' | relative_url }}" />
+  <link rel="icon" type="image/png" href="{{ 'resources/favicon_medium.png' | relative_url }}" sizes="32x32" />
+  <link rel="mask-icon" href="{{ 'resources/pinned_tab_icon.png' | relative_url }}" color="#FFFFFF" />
+  <link rel="icon" type="image/png" href="{{ 'resources/favicon_small.png' | relative_url }}" sizes="16x16" />
+  <link rel="icon" type="image/png" href="{{ 'resources/favicon_large.png' | relative_url }}" sizes="64x64" />
 
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:site" content="@shipleyfilm">
 	<meta name="twitter:creator" content="@shipleyfilm">
 	<meta name="twitter:title" content="{{ site.title }}">
 	<meta name="twitter:description" content="{{ site.description }}">
-	<meta name="twitter:url" content="http://www.shipleyfilmsociety.org.uk/index.html">
+	<meta name="twitter:url" content="{{ page.url | relative_url }}">
 	
   <meta property="og:type" content="website">
 	<meta property="og:site_name" content="{{ site.title }}">
 	<meta property="og:title" content="{{ site.title }}">
 	<meta property="og:description" content="{{ site.description }}">
-	<meta property="og:url" content="http://www.shipleyfilmsociety.org.uk/index.html">
+	<meta property="og:url" content="{{ page.url | relative_url }}">
 		
   <meta name="viewport" content="initial-scale=1 maximum-scale=1"/>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   
-  <meta name="baseurl" content="http://www.shipleyfilmsociety.org.uk/">
+  <meta name="baseurl" content=" {{site.url}} ">
   
   <title>{{ site.title }} - {{ page.title }}</title>
   
-  <link rel="stylesheet" type="text/css" media="all" href="{{ base.url }}/rw_common/themes/flip/consolidated.css" />
+  <link rel="stylesheet" type="text/css" media="all" href="{{ 'rw_common/themes/flip/consolidated.css' | relative_url }}" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/47089/SocialIconsNCD/style-cf.css">
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open%20Sans:400,700">
 			
   <!--[if lt IE 9]><script src="%pathto(ie.js)%"></script><![endif]-->
-  <link rel="stylesheet" type="text/css" media="all" href="{{ base.url }}/rw_common/plugins/stacks/stacks.css" />
-  <link rel="stylesheet" type="text/css" media="all" href="{{ base.url }}/files/stacks_page_page0.css" />
+  <link rel="stylesheet" type="text/css" media="all" href="{{ 'rw_common/plugins/stacks/stacks.css' | relative_url }}" />
+  <link rel="stylesheet" type="text/css" media="all" href="{{ 'files/stacks_page_page0.css' | relative_url }}" />
   <!--<link rel="stylesheet" type="text/css" media="all" href="{{ base.url }}/files/stacks_page_page8.css" />-->
 
   <meta name="formatter" content="Stacks v3.6.9 (4242)" >
@@ -63,7 +64,7 @@
   <link rel="stylesheet" type="text/css" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" >
   
   <style type="text/css" media="all">
-    .pt-page-2,.pt-page-1:before{background-image:url('{{ base.url }}/{{ page.background-image }}');}
+    .pt-page-2,.pt-page-1:before{background-image:url('{{ page.background-image | relative_url }}');}
 
     #icons ul {
         overflow: auto;
@@ -163,7 +164,7 @@
                         <span style="font-size:17px; color:#FF6666;font-weight:bold; ">Join our email list<br /></span>
                         <span style="font-size:14px; color:#333333;">Receive reminders about upcoming films and special events such as family film shows and mini-seasons. You can join by adding your email address here:<br /><br /></span>
                         <!-- Begin MailChimp Signup Form -->
-                        <link href="http://cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+                        <link href="https://cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
                         <style type="text/css">
                           #mc_embed_signup{background:#fff; clear:left; font:12px Helvetica,Arial,sans-serif; }
                           /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
@@ -188,10 +189,10 @@
                         <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
                         <!--End mc_embed_signup--></div></div><div id='stacks_out_451_page0' class='stacks_out'><div id='stacks_in_451_page0' class='stacks_in text_stack'><div id="icons">
                         <ul>
-                          <li><a href="http://twitter.com/shipleyfilm" title="Find us on Twitter"><i class="fa fa-twitter"></i></a></li>
-                          <li><a href="http://facebook.com/shipleyfilm" title="Find us on Facebook"><i class="fa fa-facebook"></i></a></li> 
-                          <li><a href="{{ site.url }}/contact/" title="Contact us"><i class="fa fa-envelope-o"></i></a></li>
-                          <li><a href="http://shipleyfilmsociety.org.uk/about-us" title="All you need to know about Shipley Film Society"><i class="fa fa-info-circle"></i> </a></li>
+                          <li><a href="https://twitter.com/shipleyfilm" title="Find us on Twitter"><i class="fa fa-twitter"></i></a></li>
+                          <li><a href="https://facebook.com/shipleyfilm" title="Find us on Facebook"><i class="fa fa-facebook"></i></a></li> 
+                          <li><a href="{{ 'contact' | relative_url }}" title="Contact us"><i class="fa fa-envelope-o"></i></a></li>
+                          <li><a href="{{ 'about' | relative_url }}" title="All you need to know about Shipley Film Society"><i class="fa fa-info-circle"></i> </a></li>
                           <li><a href="https://www.google.co.uk/maps/place/Kirkgate+Centre/@53.8339731,-1.7811685,17z/data=!4m2!3m1!1s0x0000000000000000:0xca1123ec9aa18c59"><i class="fa fa-map-marker" title="Find us on Google Maps"></i> </a></li>  
                         </ul>
                       </div>

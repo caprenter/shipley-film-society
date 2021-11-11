@@ -1,7 +1,7 @@
 <div id="sim"></div>
 		<script type="text/javascript" src="https://code.jquery.com/jquery-1.8.3.min.js"></script>
 		
-		<script type="text/javascript" src="{{ base.url }}/rw_common/themes/flip/assets/js/javascript.js?rwcache=606180732"></script>
+		<script type="text/javascript" src="{{ 'rw_common/themes/flip/assets/js/javascript.js' | relative_url }} "></script>
 		<script>
 			var $buoop = {vs:{i:8,f:24,o:13,s:5,n:9}} 
 			$buoop.ol = window.onload; 
@@ -9,6 +9,6 @@
 			try {if ($buoop.ol) $buoop.ol();}catch (e) {} 
 			var e = document.createElement("script"); 
 			e.setAttribute("type", "text/javascript"); 
-			e.setAttribute("src", "{{ base.url }}/rw_common/themes/flip/assets/js/update.js");
+			e.setAttribute("src", "{{ 'rw_common/themes/flip/assets/js/update.js' | relative_url }}");
 			document.body.appendChild(e);} 
 		</script>
