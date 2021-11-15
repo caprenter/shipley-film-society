@@ -27,7 +27,7 @@ discount-price: 3
   
 If you would like to get involved contact us:
 
-Email <i class="fa fa-envelope-o"></i>: <a style="display:inline" href="mailto:info@sshipleyfilmsociety.org.uk">info@sshipleyfilmsociety.org.uk</a>
+Email <i class="fa fa-envelope-o"></i>: <a style="display:inline" href="mailto:info@shipleyfilmsociety.org.uk">info@shipleyfilmsociety.org.uk</a>
 
 Twitter <i class="fa fa-twitter"></i>: <a style="display:inline" href="http://twitter.com/shipleyfilm" title="Find us on Twitter">@shipleyfilm</a>  
 Facebook <i class="fa fa-facebook"></i>: <a style="display:inline" href="http://facebook.com/shipleyfilm" title="Find us on Facebook">@shipleyfilm</a>
