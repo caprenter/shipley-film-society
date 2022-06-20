@@ -22,9 +22,7 @@ discount-price: 3
 <div id='stacks_out_7829_page0' class='stacks_out'>
 <div id='stacks_in_7829_page0' class='stacks_in text_stack' markdown="1">
 
-**Shipley Film Club is working on opening up again in 2022.**
-
-  
+**Shipley Film Club is working on opening up again in the Autumn of 2022.**  
 If you would like to get involved contact us:
 
 Email <i class="fa fa-envelope-o"></i>: <a style="display:inline" href="mailto:info@shipleyfilmsociety.org.uk">info@shipleyfilmsociety.org.uk</a>
