@@ -13,7 +13,7 @@ Clone the repository
 	bundle exec jekyll serve --baseurl=""
 	
 ## Contributing
-hkdhfhdjghhgkj
+
 Please fork the repo,and make pull requests from your clone to this one.
 
 ### Branches
