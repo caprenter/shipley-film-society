@@ -1,0 +1,8 @@
+test:
+    name: Testing
+    description: This is a great film
+    date: 2022-09-30
+    doors: 7:30pm
+    start: 8pm
+    price: 4
+    discounted: 3
