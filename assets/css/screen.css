@@ -226,6 +226,10 @@ h2 {
     letter-spacing: -1px;
 }
 
+h2.blog-logo {
+    margin-bottom:0;
+}
+
 h3 {
     font-size: 3rem;
     letter-spacing: -0.6px;
@@ -596,7 +600,7 @@ body.nav-opened .site-wrapper {
 
 .main-nav {
     position: relative;
-    padding: 35px 40px;
+    padding: 20px 40px 10px;
     margin: 0 0 30px 0;
 }
 
@@ -865,6 +869,13 @@ h2.blog-logo a {
     width: auto;
 }
 
+div.blog-logo {
+    clear: both;
+    color: #fff;
+    padding-left: 50px;
+    font-weight: 700;
+}
+
 .menu-button {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -902,7 +913,9 @@ h2.blog-logo a {
 .nav-closed .menu-button {
     color: #fff;
     border-color: rgba(255, 255, 255, 0.6);
+    background: rgba(0,0,0,0.5);
 }
+
 .nav-closed .menu-button:hover {
     color: #222;
 }
@@ -943,6 +956,7 @@ h2.blog-logo a {
     height: 70px;
     border: none;
     background: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0) 100%);
+    background: rgba(0,0,0,0.2);
 }
 .no-cover .main-nav.overlay {
     background: none;
@@ -1190,6 +1204,11 @@ body.page-template .post-title {
     -webkit-transform: translateX(-50%); /* for Safari and iOS */
     -ms-transform: translateX(-50%); /* for IE9 */
     transform: translateX(-50%);
+}
+
+figcaption {
+    font-style: italic;
+    text-align: center;
 }
 
 .footnotes {

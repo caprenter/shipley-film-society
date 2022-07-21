@@ -1,0 +1,10 @@
+<nav class="main-nav overlay clearfix">
+    {% if site.logo %}<a class="blog-logo" href="{{ site.baseurl }}"><img src="{{ site.baseurl }}{{ site.logo }}" alt="Blog Logo" /></a>{% endif %}
+    {% if site.name %}
+        <h2 class="blog-logo"><a href="{{ site.baseurl }}">{{ site.name }}</a></h2> 
+    {% endif %} 
+    {% if page.navigation %}
+        <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
+    {% endif %}
+    <div class="blog-logo strapline">Bringing great cinema to our little corner of Yorkshire</div>
+</nav>
