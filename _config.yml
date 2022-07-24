@@ -3,7 +3,7 @@
 #highlighter: pygments
 markdown: kramdown
 highlighter: rouge
-paginate: 5
+# paginate: 5
 language: 'en-uk'
 
 # Website info
@@ -13,7 +13,8 @@ tagline: "Bringing great cinema to our little corner of Yorkshire"
 email: info@shipleyfilmsociety.org.uk
 description: >- # this means to ignore newlines until "baseurl:"
  Shipley Film Society is a community run pop-up cinema, bringing great films from around the world to our little corner of Yorkshire.
- 
+
+logo: 'assets/images/favicon_large.png' # No leading slash!
 author: Shipley Film Society
 #url: "http://www.shipleyfilmsociety.org.uk/" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -34,7 +35,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 # permalink: /tag/:tag
 
 # gems and other configs
-plugins: [jekyll-paginate]
+# plugins: [jekyll-paginate]
 
 # Additional settings available on the front-matter
 # Site logo in the index.html (as in demo.ghost.io)

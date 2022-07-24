@@ -1,0 +1,41 @@
+---
+layout: default
+title: Shipley Film Society
+cover: 'assets/images/smoke.jpg'
+image-credit: Smoke
+class: 'home-template'
+navigation: True
+logo: 'assets/images/favicon_large.png'
+current: home
+our-id: "sept22"
+---
+<!-- < default -->
+<!-- The tag above means - insert everything in this file into the [body] of the default.hbs template -->
+
+<!-- The big featured header  -->
+<header class="main-header {% if page.cover %}" style="background-image: url({{ site.baseurl }}{{ page.cover }}) {% else %}no-cover{% endif %}">
+    
+    <div class="vertical">
+        <div class="main-header-content inner">
+            <h1 class="page-title">Our Next Film</h1>
+
+{% assign film = site.data.films | where:"our-id", page.our-id | first  %}
+            <!-- TODO: This film listing format could be turned into an include-->
+            <h1 class="page-title">{{ film.name }}</h1>
+            <h2 class="page-description">{{ film.short-description | markdownify }}</h2>
+            <h2 class="page-description">{{ film.date | date: "%A %d %B %Y" }}</h2>
+             <h2 class="page-description">at The Kirkgate Centre, Shipley</h2>
+            <h2 class="page-description">Certificate: {{ film.certificate }}</h2>
+            <h2 class="page-description">Doors: {{ film.doors | date: "%l:%M%P" }}</h2>
+            <h2 class="page-description">Film Starts: {{ film.start | date: "%l:%M%P" }}</h2>
+            <h2 class="page-description">£{{ film.price }} / £{{ film.discounted }} (unwaged)</h2>
+        </div>
+    </div>
+    <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
+    
+</header>
+
+<!-- The main content area on the homepage -->
+<main id="content" class="content" role="main" markdown="1">
+{% include main.md %}
+</main>
