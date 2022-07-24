@@ -10,7 +10,7 @@ navigation: true
 
 # Upcoming Films
 
-{% assign films = site.data.filmsp | sort: "date" | reversed  %}
+{% assign films = site.data.films | sort: "date" | reversed  %}
 {% for film in films %}
 {% if film.date > dateToday  %}
 ## {{ film.name }}
@@ -28,14 +28,14 @@ Film Starts: {{ film.start }}  <br/>
 
 
 # Previous Films
-{% assign films = site.data.filmsp | sort: "name" %}
+{% assign films = site.data.films | sort: "name" %}
 {% for film in films %}
 {% if film.date < dateToday  %}
 ## {{ film.name }}
 {{ film.description }}
 {{ film.date | date: "%A %d %B %Y" }}
 {% if film.link %}
-    [{{ film.name }} on IMDB]({{ film.link }})
+[{{ film.name }} on IMDB]({{ film.link }})
 {% endif %}
 {% endif %}
 {% endfor %}
