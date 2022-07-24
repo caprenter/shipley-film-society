@@ -1,8 +1,8 @@
  <div class="topnav">
   <div class="identity">
-    {% if site.logo %}<a class="blog-logo" href="{{ site.baseurl }}"><img src="{{ site.baseurl }}{{ site.logo }}" alt="Blog Logo" /></a>{% endif %}
+    {% if site.logo %}<a class="blog-logo" href="{{ '/' | relative_url }}"><img src="{{ '/' | relative_url }}{{ site.logo }}" alt="Blog Logo" /></a>{% endif %}
     {% if site.name %}
-        <h2 class="blog-logo"><a class="site-name" href="{{ site.baseurl }}">{{ site.name }}</a></h2> 
+        <h2 class="blog-logo"><a class="site-name" href="{{ '/' | relative_url }}">{{ site.name }}</a></h2> 
     {% endif %} 
   </div>
   <div class="topnav-right">
