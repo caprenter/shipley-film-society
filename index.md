@@ -22,8 +22,10 @@ our-id: "sept22"
 {% assign film = site.data.films | where:"our-id", page.our-id | first  %}
             <!-- TODO: This film listing format could be turned into an include-->
             <h1 class="page-title">{{ film.name }}</h1>
-            <h2 class="page-description">{{ film.description }}</h2>
+            <h2 class="page-description">{{ film.short-description | markdownify }}</h2>
             <h2 class="page-description">{{ film.date | date: "%A %d %B %Y" }}</h2>
+             <h2 class="page-description">at The Kirkgate Centre, Shipley</h2>
+            <h2 class="page-description">Certificate: {{ film.certificate }}</h2>
             <h2 class="page-description">Doors: {{ film.doors | date: "%l:%M%P" }}</h2>
             <h2 class="page-description">Film Starts: {{ film.start | date: "%l:%M%P" }}</h2>
             <h2 class="page-description">£{{ film.price }} / £{{ film.discounted }} (unwaged)</h2>
@@ -35,10 +37,5 @@ our-id: "sept22"
 
 <!-- The main content area on the homepage -->
 <main id="content" class="content" role="main" markdown="1">
-    {% include main.md %}
-
-    <!-- The tag below includes the post loop - partials/loop.hbs -->
-
-    {% include loop.html %}
-
+{% include main.md %}
 </main>

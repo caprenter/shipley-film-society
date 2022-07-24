@@ -3,7 +3,7 @@
 #highlighter: pygments
 markdown: kramdown
 highlighter: rouge
-paginate: 5
+# paginate: 5
 language: 'en-uk'
 
 # Website info
@@ -35,7 +35,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 # permalink: /tag/:tag
 
 # gems and other configs
-plugins: [jekyll-paginate]
+# plugins: [jekyll-paginate]
 
 # Additional settings available on the front-matter
 # Site logo in the index.html (as in demo.ghost.io)
