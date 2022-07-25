@@ -2,7 +2,7 @@
 title: About
 layout: page
 background-image: 
-cover: assets/images/resources/youthinrevoltscreen.jpg
+cover: /assets/images/resources/youthinrevoltscreen.jpg
 image-credit: Youth In Revolt
 navigation: true
 tags: fiction

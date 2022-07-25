@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Shipley Film Society
-cover: 'assets/images/smoke.jpg'
+cover: /assets/images/smoke.jpg
 image-credit: Smoke
 class: 'home-template'
 navigation: True
-logo: 'assets/images/favicon_large.png'
+logo: /assets/images/favicon_large.png
 current: home
 our-id: "sept22"
 ---
