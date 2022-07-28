@@ -314,6 +314,14 @@ h4, h5, h6 {
     text-rendering: geometricPrecision;
 }
 
+#past-films h2, #past-films p {
+    margin-bottom: 0;
+}
+
+.film-item {
+    margin-bottom: 1.5em;
+}
+
 h1 {
     font-size: 5rem;
     letter-spacing: -2px;
@@ -1291,7 +1299,7 @@ body.page-template .post-title {
    text column to break out. */
 .post-content img {
     display: block;
-    max-width: 126%;
+    max-width: 100%;
     height: auto;
     padding: 0.6em 0;
     /* Centers an image by (1) pushing its left edge to the

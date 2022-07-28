@@ -26,16 +26,22 @@ Film Starts: {{ film.start }}  <br/>
 {% endfor %}
 
 
-
+<div id="past-films" markdown="1">
 # Previous Films
 {% assign films = site.data.films | sort: "name" %}
 {% for film in films %}
 {% if film.date < dateToday  %}
+<div class="film-item" markdown="1">
 ## {{ film.name }}
-{{ film.description }}
 {{ film.date | date: "%A %d %B %Y" }}
+{% if film.image %}
+![{{ film.name }}](/assets/images/{{ film.image }}){:class="img-responsive"}
+{% endif %}
 {% if film.link %}
 [{{ film.name }} on IMDB]({{ film.link }})
 {% endif %}
+</div>
 {% endif %}
+
 {% endfor %}
+</div>
