@@ -38,6 +38,14 @@ baseurl: "" # the subpath of your site, e.g. /blog
 plugins:
   - pagemaster
 
+# configures pagemaster plugin which generates markdown from csv using the command
+collections:
+  poc-films:
+    output: true
+    source: poc-films.csv
+    id_key: our-id
+    layout: from-csv
+
 # Additional settings available on the front-matter
 # Site logo in the index.html (as in demo.ghost.io)
 # Author's page cover in _layouts/author.html

@@ -9,6 +9,10 @@ It is deployed via the gh-pages branch of this repo using Github Pages.
 ## Adding content
 All the data about the films is stored in _data/films.csv
 
+Once the data is mapped to a collection in _config.yml
+you can generate markdown for each film entry
+by running `bundle exec jekyll pagemaster {collection name}`
+
 ### Film Descriptions
 You can use markdown in the csv for the film description
 
@@ -28,10 +32,10 @@ Use a mixture of index.md and _includes/main.md to curate content on the homepag
 To run this locally
 
 Clone the repository
- 
-	cd shipley-film-society	
+
+	cd shipley-film-society
 	bundle exec jekyll serve
-	
+
 ## Contributing
 
 Please fork the repo,and make pull requests from your clone to this one.
@@ -46,6 +50,6 @@ Please fork the repo,and make pull requests from your clone to this one.
 
 * Pick (or create an issue)
 * Create a branch (from main if practical) - name the branch (issue number)-(suitable name) e.g. 23-fix-the-footer
-* Work on the branch. 
+* Work on the branch.
 * Push to your own fork
 * Make a pull request in this repo.

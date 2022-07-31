@@ -1,0 +1,9 @@
+---
+layout: page
+---
+<p>page.name={{ page.name }}</p>
+<p>page.date={{ page.date }}</p>
+<!-- Below does not work -->
+{% unless page.description == empty %}
+  <p>page.description={{ page.description }}</p>
+{% endunless %}
