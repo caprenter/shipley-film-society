@@ -1,13 +1,13 @@
 ---
 layout: default
 title: Shipley Film Society
-cover: /assets/images/smoke.jpg
-image-credit: Smoke
+cover: /assets/images/resources/midaugustlunch.jpg
+image-credit: Mid-August Lunch, Gianni Di Gregorio, 2008 
 class: 'home-template'
 navigation: True
 logo: /assets/images/favicon_large.png
 current: home
-our-id: "sept22"
+our-id: "mid-august-lunch"
 ---
 <!-- < default -->
 <!-- The tag above means - insert everything in this file into the [body] of the default.hbs template -->
