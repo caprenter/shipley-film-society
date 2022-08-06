@@ -1,16 +1,33 @@
 <article class="post">
   <header class="post-header">
-    <h2 class="post-title">{{ film.title }}</h2>
+    <h2 class="post-title">{{ film.name }}</h2>
   </header>
   <section class="post-excerpt">
     <div>
     {{ film.description | markdownify }}
     </div>
   </section>    
-
-  
-
 </article>
+
+<article class="post">
+  <header class="post-header">
+    <h2 class="post-title">About your visit</h2>
+  </header>
+  <section class="post-excerpt">
+<div>
+{% capture bar-info %}{% include bar-info.md %}{% endcapture %}
+{{ bar-info | markdownify }}
+{% capture comfort %}{% include comfort.md %}{% endcapture %}
+{{ comfort | markdownify }}
+{% capture foodbank %}{% include foodbank.md %}{% endcapture %}
+{{ foodbank | markdownify }}
+{% capture venue %}{% include venue.md %}{% endcapture %}
+{{ venue | markdownify }}
+    </div>
+  </section>    
+</article>
+
+
 <article class="post">
   <header class="post-header">
     <h1 class="post-title">2022/23 Film Season</h1>

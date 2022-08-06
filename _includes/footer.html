@@ -3,21 +3,17 @@
     <div class="strapline">{{ site.tagline }}</div>
 </div>
 <div class="row">
-    <div class="column">
+<div class="column">
+{% capture venue %}{% include venue.md %}{% endcapture %}
+{{ venue | markdownify }}
+</div>
 
-        <h3>Venue</h3>
-        <p class="footer">All films are shown at the Kirkgate Centre in Shipley unless stated otherwise. The Kirkgate Centre is situated directly opposite Shipley Town Hall:</p>
-        <p>Kirkgate Centre <br/>
-        39a Kirkgate <br/>
-        Shipley <br/>
-        BD18 3EH</p>
-    </div>
-
-    <div class="column">
-        <h3/>Bradford Metropolitan Foodbank</h3>
-        <p class="footer">We ask everyone to bring a non-perishable food item for those struggling to feed themselves or their family.
-        We look forward to the day when this is no longer necessary.</p>
-    </div>
+<div class="column">
+{% capture foodbank %}{% include foodbank.md %}{% endcapture %}
+{{ foodbank | markdownify }}
+{% capture get-involved %}{% include get-involved.md %}{% endcapture %}
+{{ get-involved | markdownify }}
+</div>
 
     <div class="column">
         <h3/>Join our email list</h3>
