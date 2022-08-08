@@ -1,34 +1,38 @@
 ---
 layout: default
 title: Shipley Film Society
-cover: /assets/images/smoke.jpg
-image-credit: Smoke
+cover: /assets/images/resources/midaugustlunch.jpg
+image-credit: Mid-August Lunch, Gianni Di Gregorio, 2008 
 class: 'home-template'
 navigation: True
 logo: /assets/images/favicon_large.png
 current: home
-our-id: "sept22"
+our-id: "mid-august-lunch"
 ---
 <!-- < default -->
 <!-- The tag above means - insert everything in this file into the [body] of the default.hbs template -->
 
 <!-- The big featured header  -->
-<header class="main-header {% if page.cover %}" style="background-image: url({{ site.baseurl }}{{ page.cover }}) {% else %}no-cover{% endif %}">
+<header class="main-header {% if page.cover %}" style="background-image: radial-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0)), url({{ site.baseurl }}{{ page.cover }}) {% else %}no-cover{% endif %}">
     
     <div class="vertical">
         <div class="main-header-content inner">
-            <h1 class="page-title">Our Next Film</h1>
+            <h2 class="page-title">Our Next Film</h2>
 
 {% assign film = site.data.films | where:"our-id", page.our-id | first  %}
             <!-- TODO: This film listing format could be turned into an include-->
-            <h1 class="page-title">{{ film.name }}</h1>
-            <h2 class="page-description">{{ film.short-description | markdownify }}</h2>
-            <h2 class="page-description">{{ film.date | date: "%A %d %B %Y" }}</h2>
-             <h2 class="page-description">at The Kirkgate Centre, Shipley</h2>
-            <h2 class="page-description">Certificate: {{ film.certificate }}</h2>
-            <h2 class="page-description">Doors: {{ film.doors | date: "%l:%M%P" }}</h2>
-            <h2 class="page-description">Film Starts: {{ film.start | date: "%l:%M%P" }}</h2>
-            <h2 class="page-description">£{{ film.price }} / £{{ film.discounted }} (unwaged)</h2>
+<div class="next-film" markdown="1">
+# {{ film.name }}
+{{ film.date | date: "%A %d %B %Y" | markdownify }}{:class="page-description"}
+{{ film.short-description | markdownify }}{:class="page-description"}
+<p class="page-description">
+    at The Kirkgate Centre, Shipley<br>
+    Certificate: {{ film.certificate }}<br>
+    Doors: {{ film.doors | date: "%l:%M%P" }}<br>
+    Film Starts: {{ film.start | date: "%l:%M%P" }}<br>
+    £{{ film.price }} / £{{ film.discounted }} (unwaged)
+</p>
+</div>
         </div>
     </div>
     <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
