@@ -7,26 +7,7 @@
     {{ film.description | markdownify }}
     </div>
   </section>    
-</article>
-
-<article class="post">
-  <header class="post-header">
-    <h2 class="post-title">About your visit</h2>
-  </header>
-  <section class="post-excerpt">
-<div>
-{% capture bar-info %}{% include bar-info.md %}{% endcapture %}
-{{ bar-info | markdownify }}
-{% capture comfort %}{% include comfort.md %}{% endcapture %}
-{{ comfort | markdownify }}
-{% capture foodbank %}{% include foodbank.md %}{% endcapture %}
-{{ foodbank | markdownify }}
-{% capture venue %}{% include venue.md %}{% endcapture %}
-{{ venue | markdownify }}
-    </div>
-  </section>    
 </article>-->
-
 
 <article class="post">
   <header class="post-header">
@@ -35,7 +16,7 @@
   <section class="post-excerpt">
 <div markdown="1">
 
-Our season runs between September and March each year.
+Our season runs between September and March each year. 
 
 {% assign dateToday = 'now' | date: "%Y-%m-%d" %}
 
@@ -56,6 +37,7 @@ If you would like to get involved [contact]({{ '/contact' | relative_url }}) us:
 
 </section>    
 
-
+  
 
 </article>
+
