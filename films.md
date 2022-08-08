@@ -13,15 +13,9 @@ navigation: true
 {% assign films = site.data.films | sort: "date" | reversed  %}
 {% for film in films %}
 {% if film.date > dateToday  %}
-## {{ film.name }}
-{{ film.description }}
-{{ film.date | date: "%A %d %B %Y" }}
-{% if film.link %}
-    [{{ film.name }} on IMDB]({{ film.link }})
-{% endif %}
-Doors: {{ film.doors }}  <br/>
-Film Starts: {{ film.start }}  <br/>
-£{{ film.price }} / £{{ film.discounted }} (unwaged)  
+<div class="film-item" markdown="1">
+{% include upcoming-film.md %}
+</div>
 {% endif %}
 {% endfor %}
 
