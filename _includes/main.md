@@ -1,4 +1,4 @@
-<article class="post">
+<!--<article class="post">
   <header class="post-header">
     <h2 class="post-title">{{ film.name }}</h2>
   </header>
@@ -25,7 +25,7 @@
 {{ venue | markdownify }}
     </div>
   </section>    
-</article>
+</article>-->
 
 
 <article class="post">
@@ -35,7 +35,7 @@
   <section class="post-excerpt">
 <div markdown="1">
 
-Our season runs between September and March each year. 
+Our season runs between September and March each year.
 
 {% assign dateToday = 'now' | date: "%Y-%m-%d" %}
 
@@ -44,15 +44,9 @@ Our season runs between September and March each year.
 {% assign films = site.data.films | sort: "date" | reversed  %}
 {% for film in films %}
 {% if film.date > dateToday  %}
-#### {{ film.name }}
-{{ film.short-description }}
-{{ film.date | date: "%A %d %B %Y" }}
-{% if film.link %}
-    [{{ film.name }} on IMDB]({{ film.link }})
-{% endif %}
-Doors: {{ film.doors }}  <br/>
-Film Starts: {{ film.start }}  <br/>
-£{{ film.price }} / £{{ film.discounted }} (unwaged)  
+<div class="post-content film-item" markdown="1">
+{% include upcoming-film.md %}
+</div>
 {% endif %}
 {% endfor %}
 
@@ -62,7 +56,6 @@ If you would like to get involved [contact]({{ '/contact' | relative_url }}) us:
 
 </section>    
 
-  
+
 
 </article>
-
