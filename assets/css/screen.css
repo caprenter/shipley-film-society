@@ -1867,19 +1867,19 @@ figcaption {
     margin: 8rem 0 0 0;
     padding: 1rem 15px;
     font-family: "Open Sans", sans-serif;
-    font-size: 1rem;
+    font-size: 1.8rem;
     line-height: 1.75em;
-    color: #BBC7CC;
+    color: #fff#BBC7CC;
 }
 
 .site-footer a {
-    color: #BBC7CC;
+    color: #fff;
     text-decoration: none;
     font-weight: bold;
 }
 
 .site-footer a:hover {
-    border-bottom: #bbc7cc 1px solid;
+    border-bottom: #fff 1px solid;
 }
 
 .poweredby {
