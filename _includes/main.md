@@ -23,7 +23,7 @@ Our season kicks off on Friday September 23rd 2022 and runs through until our fi
 
 This season marks our return after the covid cancellations of recent years. 
 
-We've brought back a couple of films that had to be cancelled during the pandemic, and our volunteers have selected a bunch of great films for you to discover, revist, and enjoy.
+We've brought back a couple of films that had to be cancelled during the pandemic, and our volunteers have selected a bunch of great films for you to discover, revisit, and enjoy.
 
 Films are shown on the 4th Friday of the month.
 
@@ -40,8 +40,8 @@ Films are shown on the 4th Friday of the month.
 {% endif %}
 {% endfor %}
 
-# Get Involved
-If you would like to get involved [contact]({{ '/contact' | relative_url }}) us:
+{% capture get-involved %}{% include get-involved.md %}{% endcapture %}
+{{ get-involved | markdownify }}
 </div>
 </section>    
 </article>
