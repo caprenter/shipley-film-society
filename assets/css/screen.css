@@ -322,6 +322,11 @@ h4, h5, h6 {
     margin-bottom: 1.5em;
 }
 
+.film-date {
+    margin-bottom:0;
+    font-style: italic;
+}
+
 h1 {
     font-size: 5rem;
     letter-spacing: -2px;
