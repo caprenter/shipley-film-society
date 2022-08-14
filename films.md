@@ -28,6 +28,7 @@ navigation: true
 <div class="film-item" markdown="1">
 ## {{ film.name }}
 {{ film.date | date: "%A %d %B %Y" }}
+{:class="film-date"}
 {% if film.image %}
 ![{{ film.name }}](/assets/images/{{ film.image }}){:class="img-responsive"}
 {% endif %}
