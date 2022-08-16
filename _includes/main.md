@@ -19,11 +19,11 @@
   <section class="main-page">
 <div markdown="1">
 
-Our season kicks off on Friday September 23rd 2022 and runs through until our final film on the 24th March 2023.
+Our season kicks off on Friday September 23rd 2022 and runs, once a month, until our final film on the 24th March 2023.
 
 This season marks our return after the covid cancellations of recent years. 
 
-We've brought back a couple of films that had to be cancelled during the pandemic, and our volunteers have selected a bunch of great films for you to discover, revisit, and enjoy.
+We've brought back a couple of films that had to be cancelled during the pandemic, and our volunteers have selected a bunch of other great films for you to discover, revisit, and enjoy.
 
 Films are shown on the 4th Friday of the month.
 
