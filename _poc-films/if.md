@@ -1,6 +1,6 @@
 ---
 our-id: if
-name: If
+film-title: If
 date: '2016-11-11'
 doors: '19:30:00'
 start: '20:00:00'
@@ -14,5 +14,5 @@ youtube:
 short-description: 
 description: 
 permalink: "/poc-films/if.html"
-layout: from-csv
+layout: generated
 ---

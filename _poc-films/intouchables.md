@@ -1,6 +1,6 @@
 ---
 our-id: intouchables
-name: Intouchables
+film-title: Intouchables
 date: '2015-12-18'
 doors: '19:30:00'
 start: '20:00:00'
@@ -14,5 +14,5 @@ youtube:
 short-description: 
 description: 
 permalink: "/poc-films/intouchables.html"
-layout: from-csv
+layout: generated
 ---

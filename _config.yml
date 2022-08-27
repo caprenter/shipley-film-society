@@ -44,7 +44,7 @@ collections:
     output: true
     source: poc-films.csv
     id_key: our-id
-    layout: from-csv
+    layout: generated
 
 # Additional settings available on the front-matter
 # Site logo in the index.html (as in demo.ghost.io)

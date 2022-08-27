@@ -1,6 +1,6 @@
 ---
 our-id: captain_fantastic
-name: Captain Fantastic
+film-title: Captain Fantastic
 date: '2017-11-25'
 doors: '19:30:00'
 start: '20:00:00'
@@ -14,5 +14,5 @@ youtube: https://www.youtube.com/embed/D1kH4OMIOMc
 short-description: 
 description: 
 permalink: "/poc-films/captain_fantastic.html"
-layout: from-csv
+layout: generated
 ---

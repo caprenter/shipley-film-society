@@ -1,6 +1,6 @@
 ---
 our-id: memories
-name: Memories
+film-title: Memories
 date: '2017-09-30'
 doors: '19:30:00'
 start: '20:00:00'
@@ -14,5 +14,5 @@ youtube: https://www.youtube.com/embed/dTnyhLywdJc
 short-description: 
 description: 
 permalink: "/poc-films/memories.html"
-layout: from-csv
+layout: generated
 ---

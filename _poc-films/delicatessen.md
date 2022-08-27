@@ -1,6 +1,6 @@
 ---
 our-id: delicatessen
-name: Delicatessen
+film-title: Delicatessen
 date: '2017-10-28'
 doors: '19:30:00'
 start: '20:00:00'
@@ -14,5 +14,5 @@ youtube: https://www.youtube.com/embed/GVL5_I4CvTc
 short-description: 
 description: 
 permalink: "/poc-films/delicatessen.html"
-layout: from-csv
+layout: generated
 ---

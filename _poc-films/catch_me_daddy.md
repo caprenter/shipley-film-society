@@ -1,6 +1,6 @@
 ---
 our-id: catch_me_daddy
-name: Catch Me Daddy
+film-title: Catch Me Daddy
 date: '2016-04-22'
 doors: '19:30:00'
 start: '20:00:00'
@@ -14,5 +14,5 @@ youtube:
 short-description: 
 description: 
 permalink: "/poc-films/catch_me_daddy.html"
-layout: from-csv
+layout: generated
 ---

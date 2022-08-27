@@ -1,6 +1,6 @@
 ---
 our-id: the_act_of_killing
-name: The Act Of Killing
+film-title: The Act Of Killing
 date: '2017-02-10'
 doors: '19:30:00'
 start: '20:00:00'
@@ -14,5 +14,5 @@ youtube: https://www.youtube.com/embed/SD5oMxbMcHM
 short-description: 
 description: 
 permalink: "/poc-films/the_act_of_killing.html"
-layout: from-csv
+layout: generated
 ---

@@ -1,6 +1,6 @@
 ---
 our-id: smoke
-name: Smoke
+film-title: Smoke
 date: '2020-04-03'
 doors: '19:30:00'
 start: '20:00:00'
@@ -15,5 +15,5 @@ short-description: Two brothers are taken by a father they only knew from a sing
   photograph on a journey into the wilderness&hellip
 description: 
 permalink: "/poc-films/smoke.html"
-layout: from-csv
+layout: generated
 ---

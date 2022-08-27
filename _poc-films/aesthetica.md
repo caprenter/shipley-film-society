@@ -1,6 +1,6 @@
 ---
 our-id: aesthetica
-name: Aesthetica
+film-title: Aesthetica
 date: '2019-09-06'
 doors: '19:30:00'
 start: '20:00:00'
@@ -14,5 +14,5 @@ youtube:
 short-description: 
 description: 
 permalink: "/poc-films/aesthetica.html"
-layout: from-csv
+layout: generated
 ---

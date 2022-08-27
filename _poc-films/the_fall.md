@@ -1,6 +1,6 @@
 ---
 our-id: the_fall
-name: The Fall
+film-title: The Fall
 date: '2015-09-18'
 doors: '19:30:00'
 start: '20:00:00'
@@ -14,5 +14,5 @@ youtube: https://www.youtube.com/embed/IwsYyRc9j4g?showinfo=0
 short-description: 
 description: 
 permalink: "/poc-films/the_fall.html"
-layout: from-csv
+layout: generated
 ---

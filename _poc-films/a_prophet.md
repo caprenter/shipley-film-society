@@ -1,6 +1,6 @@
 ---
 our-id: a_prophet
-name: A Prophet
+film-title: A Prophet
 date: '2015-10-09'
 doors: '19:30:00'
 start: '20:00:00'
@@ -14,5 +14,5 @@ youtube: https://www.youtube.com/embed/YWmIpiEJ1ms?rel=0&amp
 short-description: showinfo=0
 description: 
 permalink: "/poc-films/a_prophet.html"
-layout: from-csv
+layout: generated
 ---

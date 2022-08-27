@@ -1,6 +1,6 @@
 ---
 our-id: two_days
-name: Two Days
+film-title: Two Days
 date: '2015-11-20'
 doors: '19:30:00'
 start: '20:00:00'
@@ -14,5 +14,5 @@ youtube:
 short-description: 
 description: 
 permalink: "/poc-films/two_days.html"
-layout: from-csv
+layout: generated
 ---

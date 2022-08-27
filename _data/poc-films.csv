@@ -1,4 +1,4 @@
-our-id,name,date,doors,start,price,discounted,link,certificate,image,Alt-text,youtube,short-description,description
+our-id,film-title,date,doors,start,price,discounted,link,certificate,image,Alt-text,youtube,short-description,description
 the_act_of_killing,The Act Of Killing,2017-02-10,19:30:00,20:00:00,4,3,https://www.imdb.com/title/tt2375605/,15,resources/actofkillingbackdrop.jpg,,https://www.youtube.com/embed/SD5oMxbMcHM,,
 aesthetica,Aesthetica,2019-09-06,19:30:00,20:00:00,4,3,,n/a,,,,,
 a_prophet,A Prophet,2015-10-09,19:30:00,20:00:00,4,3,,18,resources/aprophetbackdrop.jpg,,https://www.youtube.com/embed/YWmIpiEJ1ms?rel=0&amp,showinfo=0,

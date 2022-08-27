@@ -1,6 +1,6 @@
 ---
 our-id: troll_hunter
-name: Troll Hunter
+film-title: Troll Hunter
 date: '2016-03-18'
 doors: '19:30:00'
 start: '20:00:00'
@@ -14,5 +14,5 @@ youtube:
 short-description: 
 description: 
 permalink: "/poc-films/troll_hunter.html"
-layout: from-csv
+layout: generated
 ---

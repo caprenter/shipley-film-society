@@ -1,6 +1,6 @@
 ---
 our-id: breathing
-name: Breathing
+film-title: Breathing
 date: '2020-03-06'
 doors: '19:30:00'
 start: '20:00:00'
@@ -14,5 +14,5 @@ youtube: https://www.youtube.com/embed/rLPwjQKpdLk
 short-description: 
 description: 
 permalink: "/poc-films/breathing.html"
-layout: from-csv
+layout: generated
 ---

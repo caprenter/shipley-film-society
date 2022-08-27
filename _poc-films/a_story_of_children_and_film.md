@@ -1,6 +1,6 @@
 ---
 our-id: a_story_of_children_and_film
-name: A Story Of Children And Film
+film-title: A Story Of Children And Film
 date: '2016-12-09'
 doors: '19:30:00'
 start: '20:00:00'
@@ -14,5 +14,5 @@ youtube: https://www.youtube.com/embed/ZX9Z9oP85_w
 short-description: 
 description: 
 permalink: "/poc-films/a_story_of_children_and_film.html"
-layout: from-csv
+layout: generated
 ---

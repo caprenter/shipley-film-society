@@ -1,6 +1,6 @@
 ---
 our-id: force_majeure
-name: Force Majeure
+film-title: Force Majeure
 date: '2018-12-07'
 doors: '19:30:00'
 start: '20:00:00'
@@ -14,5 +14,5 @@ youtube: https://www.youtube.com/embed/fjjzVbTBF8o
 short-description: 
 description: 
 permalink: "/poc-films/force_majeure.html"
-layout: from-csv
+layout: generated
 ---

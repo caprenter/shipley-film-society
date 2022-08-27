@@ -1,6 +1,6 @@
 ---
 our-id: russian_ark
-name: Russian Ark
+film-title: Russian Ark
 date: '2019-12-06'
 doors: '19:30:00'
 start: '20:00:00'
@@ -14,20 +14,13 @@ youtube: https://www.youtube.com/embed/ZV1kphEEXn8
 short-description: 'The first feature film shot in a single take, Russian Ark takes
   us through a museum to visit ghosts of the past, from a tyrannical Peter the Great
   to the doomed Tzar Nicholas II.  '
-description: |- 
-  The first feature film shot in a single take, Russian Ark takes us through
+description: "The first feature film shot in a single take, Russian Ark takes us through
   a museum to visit ghosts of the past, from a tyrannical Peter the Great to the doomed
-  Tzar Nicholas II.
-  
-  *The movie's smooth voyage comes to seem like a dream play,
-  suspended painlessly in time* - Village Voice
-  
-  *Despite an undeniable attraction
+  Tzar Nicholas II.  \n\n> *The movie's smooth voyage comes to seem like a dream play,
+  suspended painlessly in time* - Village Voice  \n\n> *Despite an undeniable attraction
   to the majestic, Aleksandr Sokurov seems equally adverse to straightforward spectacle,
   approaching potentially colossal subjects from odd, specific angles.* - Slant Magazine
-  
-  A bar will be open serving wines, beers, soft drinks and cake.
-
+  \ \n\nA bar will be open serving wines, beers, soft drinks and cake."
 permalink: "/poc-films/russian_ark.html"
-layout: from-csv
+layout: generated
 ---

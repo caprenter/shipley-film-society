@@ -1,6 +1,6 @@
 ---
 our-id: dig
-name: Dig
+film-title: Dig
 date: '2017-03-10'
 doors: '19:30:00'
 start: '20:00:00'
@@ -14,5 +14,5 @@ youtube: https://www.youtube.com/embed/RWK29MmRxTo
 short-description: 
 description: 
 permalink: "/poc-films/dig.html"
-layout: from-csv
+layout: generated
 ---

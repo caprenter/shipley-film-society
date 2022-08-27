@@ -1,9 +1,0 @@
----
-layout: page
----
-<p>page.name={{ page.name }}</p>
-<p>page.date={{ page.date }}</p>
-<!-- Below does not work -->
-{% if page.description %}
-  <p>page.description={{ page.description | markdownify}}</p>
-{% endif %}

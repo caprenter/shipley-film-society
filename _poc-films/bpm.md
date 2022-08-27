@@ -1,6 +1,6 @@
 ---
 our-id: bpm
-name: Bpm
+film-title: Bpm
 date: '2020-01-17'
 doors: '19:30:00'
 start: '20:00:00'
@@ -14,5 +14,5 @@ youtube: https://www.youtube.com/embed/UVAw7JfTqBU
 short-description: 
 description: 
 permalink: "/poc-films/bpm.html"
-layout: from-csv
+layout: generated
 ---
