@@ -13,56 +13,41 @@ layout: default
 
         <section class="post-content main-page">
 
-
-          <!-- certs time etc -->
-          {% if page.certificate %}<div class="film-screening-info">Certificate: {{ page.certificate }}</div>{% endif %}
-          {% if page.date %}<div class="film-screening-info">{{ page.date | date: "%A %d %B %Y" }}</div>{% endif %}
-          {% if page.doors %}<div class="film-screening-info">Doors: {{ page.doors | date: "%l:%M%P" }}</div>{% endif %}
-          {% if page.start %}<div class="film-screening-info">Film Starts: {{ page.start | date: "%l:%M%P" }}</div>{% endif %}
-          {% if page.price %}<div class="film-screening-info">
+        {% if page.certificate %}<div class="film-screening-info">Certificate: {{ page.certificate }}</div>{% endif %}
+        {% if page.date %}<div class="film-screening-info">{{ page.date | date: "%A %d %B %Y" }}</div>{% endif %}
+        {% if page.doors %}<div class="film-screening-info">Doors: {{ page.doors | date: "%l:%M%P" }}</div>{% endif %}
+        {% if page.start %}<div class="film-screening-info">Film Starts: {{ page.start | date: "%l:%M%P" }}</div>{% endif %}
+        {% if page.price %}
+            <div class="film-screening-info">
             {% if page.discounted %}Admission: £{{ page.price }}/£{{ page.discounted}} (unwaged)
             {% else %}Admission: £{{ page.price }}
             {% endif %}
-          </div>{% endif %}
+            </div>
+        {% endif %}
 
-          {% if page.image %}<div class="img-responsive">
+        {% if page.image %}
+            <div class="img-responsive">
             {% if page.Alt-text %}<img src="/assets/images/{{ page.image }}" alt="{{ page.Alt-text }}">
             {% else %}<img src="/assets/images/{{ page.image }}">
             {% endif %}
             {% if page.Alt-text %}<em>{{ page.Alt-text }}</em>{% endif %}
-          </div><br>{% endif %}
+            </div><br>
+        {% endif %}
 
-          {% if page.description %}<div>{{ page.description | markdownify }}</div><br>
-          {% elsif page.short-description %}<div>{{ page.short-description }}<br>{% include bar-info.md %}</div><br>
-          {% endif %}
+        {% if page.description %}<div>{{ page.description | markdownify }}</div><br>
+        {% elsif page.short-description %}<div>{{ page.short-description }}<br>{% include bar-info.md %}</div><br>
+        {% endif %}
 
-          {% unless page.description or page.short-description %}<div>{% include bar-info.md %}</div><br>{% endunless %}
+        {% unless page.description or page.short-description %}<div>{% include bar-info.md %}</div><br>{% endunless %}
 
-          <!-- {% include imdb.md %} -->
-          <!-- {% if page.link %}
-            <div>
-            {% if page.film-title %}
-              [{{ page.film-title }} on IMDB]({{ page.link }})
-            {% else %}
-              [IMDB page]({{ page.link }})
-            {% endif %}
-            </div>
-          {% endif %} -->
-          {% if page.link %}
-            <div>
-            {% if page.film-title %}<a href="{{ page.link }}">{{ page.film-title }}</a> on IMDB
-            {% else %}<a href="{{ page.link }}">IMDB page</a>{% endif %}
-            </div>
-          {% endif %}
+        {% if page.imdb-link %}{% include imdb-link.md %}{% endif %}
 
-          {% if page.youtube %}
-          <div class="video-container">
+        {% if page.youtube %}
+            <div class="video-container">
             <iframe width="560" height="315" src="{{ page.youtube }}" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-          {% endif %}
+            </div>
+        {% endif %}
 
         </section>
-
     </article>
 </main>
-<!-- /post -->

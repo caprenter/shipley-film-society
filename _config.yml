@@ -40,7 +40,7 @@ plugins:
 
 # configures pagemaster plugin which generates markdown from csv using the command
 collections:
-  poc-films:
+  generated:
     output: true
     source: poc-films.csv
     id_key: our-id

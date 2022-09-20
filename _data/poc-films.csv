@@ -1,4 +1,4 @@
-our-id,film-title,date,doors,start,price,discounted,link,certificate,image,Alt-text,youtube,short-description,description
+our-id,film-title,date,doors,start,price,discounted,imdb-link,certificate,image,Alt-text,youtube,short-description,description
 the_act_of_killing,The Act Of Killing,2017-02-10,19:30:00,20:00:00,4,3,https://www.imdb.com/title/tt2375605/,15,resources/actofkillingbackdrop.jpg,,https://www.youtube.com/embed/SD5oMxbMcHM,,
 aesthetica,Aesthetica,2019-09-06,19:30:00,20:00:00,4,3,,n/a,,,,,
 a_prophet,A Prophet,2015-10-09,19:30:00,20:00:00,4,3,,18,resources/aprophetbackdrop.jpg,,https://www.youtube.com/embed/YWmIpiEJ1ms?rel=0&amp,showinfo=0,
@@ -25,11 +25,11 @@ loneliness,Loneliness,2018-11-02,19:30:00,20:00:00,4,3,,12,resources/loneliness4
 man_with_a_movie_camera,Man With A Movie Camera,2019-10-04,19:30:00,20:00:00,4,3,,U,resources/manwithamoviecamerabackground.jpg,,https://www.youtube.com/embed/BtTlgxtoqhg,,
 memories,Memories,2017-09-30,19:30:00,20:00:00,4,3,,15,resources/memories.png,,https://www.youtube.com/embed/dTnyhLywdJc,,
 night_on_earth,Night On Earth,2020-04-17,19:30:00,20:00:00,4,3,,15,resources/nightonearth.jpg,,https://www.youtube.com/embed/F1m6GlPyOSU,,
-russian_ark,Russian Ark,2019-12-06,19:30:00,20:00:00,4,3,,15,resources/RussianArk_1.jpg,"Russian Ark, A. Sokurov, Russia, 2002",https://www.youtube.com/embed/ZV1kphEEXn8,"The first feature film shot in a single take, Russian Ark takes us through a museum to visit ghosts of the past, from a tyrannical Peter the Great to the doomed Tzar Nicholas II.  ","The first feature film shot in a single take, Russian Ark takes us through a museum to visit ghosts of the past, from a tyrannical Peter the Great to the doomed Tzar Nicholas II.  
+russian_ark,Russian Ark,2019-12-06,19:30:00,20:00:00,4,3,,15,resources/RussianArk_1.jpg,"Russian Ark, A. Sokurov, Russia, 2002",https://www.youtube.com/embed/ZV1kphEEXn8,"The first feature film shot in a single take, Russian Ark takes us through a museum to visit ghosts of the past, from a tyrannical Peter the Great to the doomed Tzar Nicholas II.  ","The first feature film shot in a single take, Russian Ark takes us through a museum to visit ghosts of the past, from a tyrannical Peter the Great to the doomed Tzar Nicholas II.
 
-> *The movie's smooth voyage comes to seem like a dream play, suspended painlessly in time* - Village Voice  
+> *The movie's smooth voyage comes to seem like a dream play, suspended painlessly in time* - Village Voice
 
-> *Despite an undeniable attraction to the majestic, Aleksandr Sokurov seems equally adverse to straightforward spectacle, approaching potentially colossal subjects from odd, specific angles.* - Slant Magazine  
+> *Despite an undeniable attraction to the majestic, Aleksandr Sokurov seems equally adverse to straightforward spectacle, approaching potentially colossal subjects from odd, specific angles.* - Slant Magazine
 
 A bar will be open serving wines, beers, soft drinks and cake."
 smoke,Smoke,2020-04-03,19:30:00,20:00:00,4,3,,,resources/smoke.jpg,,https://www.youtube.com/embed/E8eiFdoI5W0,Two brothers are taken by a father they only knew from a single photograph on a journey into the wilderness&hellip,
