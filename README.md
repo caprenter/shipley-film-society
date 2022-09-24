@@ -23,6 +23,12 @@ Films page - all upcoming films and past films
 ### Home Page
 Use a mixture of index.md and _includes/main.md to curate content on the homepage.
 
+To update the home page to highlight the next film, change the 'our_id' variable in the front matter to match the film id in the CSV file.
+
+### Twitter Cards
+The twitter card code should use the latest film image if you're linking to the home page, or a default if there is no next film. The default is defined in _includes/head.html
+
+Individual pages (e.g. about) define a cover image in the front matter which is used for all pages except 'home'
 
 ## Local Development
 To run this locally
