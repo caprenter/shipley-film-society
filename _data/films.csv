@@ -4,7 +4,7 @@ our-id,name,date,doors,start,price,discounted,link,certificate,image,Alt-text,yo
 ,To be confirmed,2023-01-27,,,,,,,,,,,
 ,To be confirmed,2022-11-25,,,,,,,,,,,
 8-women,8 Women,2022-12-16,19:30:00,20:00:00,5,4,https://www.imdb.com/title/tt0283832,15,resources/8women.jpg,"8 Women, François Ozon, 2002",https://www.youtube.com/embed/Fv8_fsEq_j0,"One murdered man, eight women, each seeming to be eager than the others to know the truth. Gimme, gimme, gimme some clues to make up my mind. And eventually enter the truth. Oh, thou cruel woman!","One murdered man, eight women, each seeming to be eager than the others to know the truth. Gimme, gimme, gimme some clues to make up my mind. And eventually enter the truth. Oh, thou cruel woman!"
-smoke,Smoke,2022-10-28,19:30:00,20:00:00,5,4,https://www.imdb.com/title/tt0114478/,15,resources/smoke.jpg,"Smoke, Wayne Wang, 1995",https://www.youtube.com/embed/E8eiFdoI5W0,Two brothers are taken by a father they only knew from a single photograph on a journey into the wilderness&hellip;,
+smoke,Smoke,2022-10-28,19:30:00,20:00:00,5,4,https://www.imdb.com/title/tt0114478/,15,resources/smoke.jpg,"Smoke, Wayne Wang, 1995",https://www.youtube.com/embed/3v8r-ec4V2M,"A Brooklyn smoke shop is the centre of neighbourhood activity, and the stories of its customers",
 night_on_earth,Night On Earth,2022-09-23,19:30:00,20:00:00,5,4,https://www.imdb.com/title/tt0102536/,15,resources/nightonearth.jpg,"Night On Earth, Jim Jarmusch, 1991",https://www.youtube.com/embed/F1m6GlPyOSU,An anthology of 5 different cab drivers in 5 American and European cities and their remarkable fares on the same eventful night.,An anthology of 5 different cab drivers in 5 American and European cities and their remarkable fares on the same eventful night.
 the_act_of_killing,The Act Of Killing,2017-02-10,19:30:00,20:00:00,4,3,https://www.imdb.com/title/tt2375605/,15,resources/actofkillingbackdrop.jpg,,https://www.youtube.com/embed/SD5oMxbMcHM,,
 aesthetica,Aesthetica,2019-09-06,19:30:00,20:00:00,4,3,,n/a,,,,,
@@ -46,7 +46,7 @@ russian_ark,Russian Ark,2019-12-06,19:30:00,20:00:00,4,3,,15,resources/RussianAr
 
 A bar will be open serving wines, beers, soft drinks and cake."
 the_fall,The Fall,2015-09-18,19:30:00,20:00:00,4,3,,15,resources/fallbackdrop.jpg,,https://www.youtube.com/embed/IwsYyRc9j4g?showinfo=0,,
-the_return,The Return,2020-02-07,19:30:00,20:00:00,4,3,,12,resources/thereturn2.jpg,,https://www.youtube.com/embed/mEKp-Ort7hU,,
+the_return,The Return,2020-02-07,19:30:00,20:00:00,4,3,,12,resources/thereturn2.jpg,,https://www.youtube.com/embed/mEKp-Ort7hU,Two brothers are taken by a father they only knew from a single photograph on a journey into the wilderness&hellip;,
 troll_hunter,Troll Hunter,2016-03-18,19:30:00,20:00:00,4,3,,,resources/trollhunterbackdrop.jpg,,,,
 two_days,Two Days,2015-11-20,19:30:00,20:00:00,4,3,,,resources/twodaysbackdrop.jpg,,,,
 wasteland,Wasteland,2017-01-13,19:30:00,20:00:00,4,3,,,resources/wastelandbackdrop.jpg,,https://www.youtube.com/embed/sNlwh8vT2NU,,
