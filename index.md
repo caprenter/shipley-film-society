@@ -1,25 +1,29 @@
 ---
 layout: default
 title: Shipley Film Society
-cover: /assets/images/resources/nightonearth.jpg
-image-credit: Night On Earth, Jim Jarmusch, 1991 
 class: 'home-template'
 navigation: True
 logo: /assets/images/favicon_large.png
 current: home
-our-id: "night_on_earth"
+#Use this for the next film to be shown. The id is in the csv file
+our-id: "smoke" 
+# Defaults to use if no 'next film'
+cover: /assets/images/resources/nightonearth.jpg
+
 ---
 <!-- < default -->
 <!-- The tag above means - insert everything in this file into the [body] of the default.hbs template -->
+<!-- Get the next film data -->
+{% assign film = site.data.films | where:"our-id", page.our-id | first  %}
 
 <!-- The big featured header  -->
-<header class="main-header {% if page.cover %}" style="background-image: radial-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0)), url({{ site.baseurl }}{{ page.cover }}) {% else %}no-cover{% endif %}">
+<header class="main-header {% if film.image %}" style="background-image: radial-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0)), url({{ site.baseurl }}/assets/images/{{ film.image }} {% elsif page.cover %}" style="background-image: radial-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0)), url({{ site.baseurl }}{{ page.cover }}) {% else %}no-cover{% endif %}">
     
     <div class="vertical">
         <div class="main-header-content inner">
             <h2 class="page-title">Our Next Film</h2>
 
-{% assign film = site.data.films | where:"our-id", page.our-id | first  %}
+
             <!-- TODO: This film listing format could be turned into an include-->
 <div class="next-film" markdown="1">
 # {{ film.name }}
