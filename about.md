@@ -1,7 +1,7 @@
 ---
 title: About
 layout: page 
-cover: /assets/images/resources/youthinrevoltscreen.jpg
+cover: resources/youthinrevoltscreen.jpg #No leading slash
 image-credit: Youth In Revolt
 navigation: true
 ---
