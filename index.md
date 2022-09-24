@@ -15,7 +15,8 @@ cover: /assets/images/resources/nightonearth.jpg
 ---
 <!-- < default -->
 <!-- The tag above means - insert everything in this file into the [body] of the default.hbs template -->
-
+ <!-- Get the next film data -->
+{% assign film = site.data.films | where:"our-id", page.our-id | first  %}
 <!-- The big featured header  -->
 <header class="main-header {% if film.image %}" style="background-image: radial-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0)), url({{ site.baseurl }}/assets/images/{{ film.image }} {% elsif page.cover %}" style="background-image: radial-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0)), url({{ site.baseurl }}{{ page.cover }}) {% else %}no-cover{% endif %}">
     
