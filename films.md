@@ -1,7 +1,7 @@
 ---
 title: Films
 layout: page
-cover: assets/images/resources/RussianArk_1.jpg
+cover: resources/RussianArk_1.jpg #no leading slash
 image-credit: Russian Ark
 navigation: true
 ---
