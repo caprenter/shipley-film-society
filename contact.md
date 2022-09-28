@@ -1,7 +1,7 @@
 ---
 title: Contact
 layout: page
-cover: childrenfilmbackdrop.jpg #no leading slash
+cover: resources/childrenfilmbackdrop.jpg #no leading slash
 image-credit: Children In Film
 navigation: true
 ---
