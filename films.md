@@ -10,9 +10,9 @@ navigation: true
 
 # Upcoming Films
 
-{% assign films = site.data.films | sort: "date" | reversed  %}
+{% assign films = site.data.films | sort: "screening-date" | reversed  %}
 {% for film in films %}
-{% if film.date > dateToday  %}
+{% if film.screening-date > dateToday  %}
 <div class="film-item" markdown="1">
 {% include upcoming-film.md %}
 </div>
@@ -22,18 +22,18 @@ navigation: true
 
 <div id="past-films" markdown="1">
 # Previous Films
-{% assign films = site.data.films | sort: "name" %}
+{% assign films = site.data.films | sort: "film-title" %}
 {% for film in films %}
-{% if film.date < dateToday  %}
+{% if film.screening-date < dateToday  %}
 <div class="film-item" markdown="1">
-## {{ film.name }}
-{{ film.date | date: "%A %d %B %Y" }}
+## {{ film.film-title }}
+{{ film.screening-date | date: "%A %d %B %Y" }}
 {:class="film-date"}
-{% if film.image %}
-![{{ film.name }}](/assets/images/{{ film.image }}){:class="img-responsive"}
+{% if film.main-image %}
+![{{ film.film-title }}](/assets/images/{{ film.main-image }}){:class="img-responsive"}
 {% endif %}
-{% if film.link %}
-[{{ film.name }} on IMDB]({{ film.link }})
+{% if film.imdb-link %}
+[{{ film.film-title }} on IMDB]({{ film.imdb-link }})
 {% endif %}
 </div>
 {% endif %}

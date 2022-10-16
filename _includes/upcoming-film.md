@@ -1,11 +1,11 @@
-#### {{ film.name }}
-{{ film.date | date: "%A %d %B %Y" }}
+#### {{ film.film-title }}
+{{ film.screening-date | date: "%A %d %B %Y" }}
 {:class="film-date"}
-{% if film.image %}
-![{{ film.name }}](/assets/images/{{ film.image }}){:class="img-responsive"}
+{% if film.main-image %}
+![{{ film.film-title }}](/assets/images/{{ film.main-image }}){:class="img-responsive"}
 {% endif %}
 {{ film.short-description }}<br/>
-{% if film.link %}[{{ film.name }} on IMDB]({{ film.link }}){% endif %}
+{% if film.imdb-link %}[{{ film.film-title }} on IMDB]({{ film.imdb-link }}){% endif %}
 
 {% if film.doors %}Doors: {{ film.doors | date: "%l:%M%P" }} <br/>{% endif %}
 {% if film.start %}Film Starts: {{ film.start | date: "%l:%M%P" }} <br/>{% endif %}

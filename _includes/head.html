@@ -2,7 +2,7 @@
     {% assign film = site.data.films | where:"our-id", page.our-id | first  %}
     <!-- Define the image used for Twitter Cards etc-->
     {% if page.current == 'home' %}
-    {% assign use_image = film.image %}
+    {% assign use_image = film.main-image %}
     {% elsif page.cover %}
     {% assign use_image = page.cover %}
     {% else %}
@@ -18,7 +18,7 @@
     <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
     <meta property="og:url" content="{{ site.url }}{% if site.baseurl %}{{ site.baseurl }}{% endif %}{{ page.url }}" />
     <meta property="og:image" content="{{ site.url }}{% if site.baseurl %}{{ site.baseurl }}{% endif %}/assets/images/{{ use_image }}" />
-   
+
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}" />
     <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />

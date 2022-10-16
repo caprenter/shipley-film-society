@@ -1,6 +1,6 @@
 <!--<article class="post">
   <header class="post-header">
-    <h2 class="post-title">{{ film.name }}</h2>
+    <h2 class="post-title">{{ film.film-title }}</h2>
   </header>
   <section class="post-excerpt">
     <div>
@@ -21,7 +21,7 @@
 
 Our season kicked off on Friday September 23rd 2022, and we're now showing films once a month, until our final film on the 24th March 2023.
 
-This season marks our return after the covid cancellations of recent years. 
+This season marks our return after the covid cancellations of recent years.
 
 We've brought back a couple of films that had to be cancelled during the pandemic, and our volunteers have selected a bunch of other great films for you to discover, revisit, and enjoy.
 
@@ -31,9 +31,9 @@ Films are shown on the 4th Friday of the month.
 
 ### Upcoming Films
 
-{% assign films = site.data.films | sort: "date" | reversed  %}
+{% assign films = site.data.films | sort: "screening-date" | reversed  %}
 {% for film in films %}
-{% if film.date > dateToday  %}
+{% if film.screening-date > dateToday  %}
 <div class="post-content film-item" markdown="1">
 {% include upcoming-film.md %}
 </div>
