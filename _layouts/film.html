@@ -1,3 +1,53 @@
 ---
 layout: default
 ---
+<header class="main-header post-head {% if page.cover %}" style="background-image: url({{ site.baseurl }}{{ page.cover }}){% else %}no-cover{% endif %}">
+{% if page.image-credit %}{% include image-credit.html %}{% endif %}
+</header>
+
+<main class="content" role="main">
+    <article class="post">
+        <header class="post-header">
+            <h1 class="post-title">{{ page.film-title }}</h1>
+        </header>
+
+        <section class="post-content main-page">
+
+        {% if page.classification %}<div class="film-screening-info">Certificate: {{ page.classification }}</div>{% endif %}
+        {% if page.screening-date %}<div class="film-screening-info">{{ page.screening-date | date: "%A %d %B %Y" }}</div>{% endif %}
+        {% if page.doors %}<div class="film-screening-info">Doors: {{ page.doors | date: "%l:%M%P" }}</div>{% endif %}
+        {% if page.start %}<div class="film-screening-info">Film Starts: {{ page.start | date: "%l:%M%P" }}</div>{% endif %}
+        {% if page.price %}
+            <div class="film-screening-info">
+            {% if page.discounted %}Admission: £{{ page.price }}/£{{ page.discounted}} (unwaged)
+            {% else %}Admission: £{{ page.price }}
+            {% endif %}
+            </div>
+        {% endif %}
+
+        {% if page.main-image %}
+            <div class="img-responsive">
+            {% if page.alt-text %}<img src="/assets/images/{{ page.main-image }}" alt="{{ page.alt-text }}">
+            {% else %}<img src="/assets/images/{{ page.main-image }}">
+            {% endif %}
+            {% if page.alt-text %}<em>{{ page.alt-text }}</em>{% endif %}
+            </div><br>
+        {% endif %}
+
+        {% if page.description %}<div>{{ page.description | markdownify }}</div><br>
+        {% elsif page.short-description %}<div>{{ page.short-description }}<br>{% include bar-info.md %}</div><br>
+        {% endif %}
+
+        {% unless page.description or page.short-description %}<div>{% include bar-info.md %}</div><br>{% endunless %}
+
+        {% if page.imdb-link %}{% include imdb-link.md %}{% endif %}
+
+        {% if page.youtube %}
+            <div class="video-container">
+            <iframe width="560" height="315" src="{{ page.youtube }}" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        {% endif %}
+
+        </section>
+    </article>
+</main>
