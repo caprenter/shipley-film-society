@@ -1,4 +1,4 @@
-#### {{ film.film-title }}
+#### [{{ film.film-title }}]({{ site.url }}/films/{{ film.our-id }})
 {{ film.screening-date | date: "%A %d %B %Y" }}
 {:class="film-date"}
 {% if film.main-image %}
