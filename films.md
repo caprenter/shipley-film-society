@@ -26,7 +26,7 @@ navigation: true
 {% for film in films %}
 {% if film.screening-date < dateToday  %}
 <div class="film-item" markdown="1">
-## {{ film.film-title }}
+## [{{ film.film-title }}]({{ site.url }}/films/{{ film.our-id }})
 {{ film.screening-date | date: "%A %d %B %Y" }}
 {:class="film-date"}
 {% if film.main-image %}
