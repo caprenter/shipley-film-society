@@ -1,12 +1,12 @@
 ---
-title: Russian Ark
+our-id: Russian Ark
 layout: default
 background-image: resources/RussianArk_1.jpg
 film-title: Russian Ark
 film-image: stacks-image-dfc00b4.jpg
 alt-text: Russian Ark, A. Sokurov, Russia, 2002
-certificate: U
-date: Friday 6th December 2019
+classification: U
+screening-date: Friday 6th December 2019
 doors: 7:30pm
 starts: 8pm
 full-price: 4
@@ -18,8 +18,8 @@ discount-price: 3
     <div id="stacks_out_4387_page8" class="stacks_out">
       <div id="stacks_in_4387_page8" class="stacks_in text_stack">
         <span style="font-size:28px; color:#FF6666;font-weight:bold; ">{{ page.film-title }}<br /></span>
-        <span style="font-size:13px; color:#4C4C4C;font-weight:bold; ">Certificate: {{ page.certificate }}<br /></span>
-        <span style="font-size:13px; color:#4C4C4C;font-weight:bold; ">{{ page.date }}, {{ page.doors }}<br /></span>
+        <span style="font-size:13px; color:#4C4C4C;font-weight:bold; ">Certificate: {{ page.classification }}<br /></span>
+        <span style="font-size:13px; color:#4C4C4C;font-weight:bold; ">{{ page.screening-date }}, {{ page.doors }}<br /></span>
         <span style="font-size:13px; color:#4C4C4C;font-weight:bold; ">Admission: &pound;{{ page.full-price }} / &pound;{{ page.discount-price }} unwaged</span>
       </div>
     </div>
@@ -55,7 +55,3 @@ discount-price: 3
     </div>
   </div>
 </div>
-
-
-
-
