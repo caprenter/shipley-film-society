@@ -20,7 +20,7 @@ url: "https://www.shipleyfilmsociety.org.uk" # the base hostname & protocol for 
 baseurl: "" # the subpath of your site, e.g. /blog
 #google_analytics: UA-111111111-1
 #twitter:
-#  username: 
+#  username:
 #  card: summary #keep this to generate a twitter share card
 
 #short_url: 'jekyllt.github.io/jasper/'
@@ -65,6 +65,19 @@ branch: master
 #destination: ../jasper-pages/
 production_url:  https://www.shipleyfilmsociety.org.uk/
 source_url:  https://github.com/caprenter/shipley-film-society/
+
+# gems and other configs
+plugins:
+  - pagemaster
+
+# Jekyll collection definitions
+# Pagemaster bases its configuration on these
+collections:
+  films:
+    output: true
+    source: films.csv
+    id_key: our-id
+    layout: film
 
 exclude:
   - README.md
