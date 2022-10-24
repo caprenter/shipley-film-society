@@ -1,6 +1,6 @@
 ---
 our-id: aesthetica
-film-title: Aesthetica
+film-title: Aesthetica Short Film Festival Tour
 screening-date: '2019-09-06'
 doors: '19:30:00'
 start: '20:00:00'
