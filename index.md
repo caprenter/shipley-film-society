@@ -8,7 +8,7 @@ current: home
 #Use 'our_id' below for the next film to be shown. The id is in the csv file
 # we use {% assign film = site.data.films | where:"our-id", page.our-id | first  %}
 # in _includes/head.html to make use of the data below using e.g. film.main-image
-our-id: "smoke"
+our-id: "lucky"
 # Defaults to use if no 'next film'
 cover: /assets/images/resources/nightonearth.jpg
 
