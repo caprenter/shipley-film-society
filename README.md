@@ -2,16 +2,30 @@
 
 ## About
 
-This is a static site to replace the current site at http://www.shipleyfilmsociety.org.uk/
+This is a static site that displays at http://www.shipleyfilmsociety.org.uk/
 
 It is deployed via the gh-pages branch of this repo using Github Pages.
 
-## Adding content
+## Films
 All the data about the films is stored in _data/films.csv
 
+We parse the data from the CSV file when the site is built, and display information in various places
+
+* Front page - next film, and all upcoming films for the season
+* Films page - all upcoming films and past films
+* Individual film pages - each film has it's own page
+
+### Film Descriptions
+You can use markdown in the csv for the film description
+
+A short description is useful for e.g. the front page where we don't want loads of text.
+
+### Generating individual film pages
 Once the data is mapped to a collection in _config.yml
 you can generate markdown for each collection entry
 by running `bundle exec jekyll pagemaster {collection name}`
+
+In practice we use: `bundle exec jekyll pagemaster films`
 
 This command will generate markdown for views for each item in the collection
 under `./_{collection name}`
@@ -19,24 +33,25 @@ under `./_{collection name}`
 To update generated markdown delete that directory
 as existing files are not updated when pagemaster runs
 
-### Film Descriptions
-You can use markdown in the csv for the film description
+### Updating or Adding the next film
 
-A short description is useful for e.g. the front page where we don't want loads of text.
+1. Create a new branch
+1. Update the csv file. Fill in all the fields. Get the data from IMDB and YouTube.
+1. Find and save a film image to the `assets/images/resources` directory. Image size is 1280x685px.
+1. You will need to generate the individual film page<br>
+Run `bundle exec jekyll pagemaster films`
+1. Change the `our-id` value in `index.md`
+1. Run `bundle exec jekyll serve` to check the site
+1. Commit changes and make a pull request to `main`
 
-### Films listings
-We parse the data from the CSV file when the site is built, and display information in various places
 
-Front page - next film, and all upcoming films for the season
-Films page - all upcoming films and past films
+## Home Page
+Use a mixture of `index.md` and `_includes/main.md` to curate content on the homepage.
 
-### Home Page
-Use a mixture of index.md and _includes/main.md to curate content on the homepage.
+To update the home page to highlight the next film, change the `our_id` variable in the front matter of `index.md` to match the film id in the CSV file.
 
-To update the home page to highlight the next film, change the 'our_id' variable in the front matter to match the film id in the CSV file.
-
-### Twitter Cards
-The twitter card code should use the latest film image if you're linking to the home page, or a default if there is no next film. The default is defined in _includes/head.html
+## Twitter Cards
+The twitter card code should use the latest film image if you're linking to the home page, or a default if there is no next film. The default is defined in `_includes/head.html`
 
 Individual pages (e.g. about) define a cover image in the front matter which is used for all pages except 'home'
 
