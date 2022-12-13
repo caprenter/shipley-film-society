@@ -11,7 +11,7 @@ imdb-link: https://www.imdb.com/title/tt0080319/
 classification: '15'
 main-image: resources/nine_to_five.jpg
 alt-text: Colin Higgins, 1980
-youtube: https://youtu.be/qni6HOyPNBA
+youtube: https://www.youtube.com/embed/qni6HOyPNBA
 short-description: Three female employees of a sexist, egotistical, lying, hypocritical
   bigot find a way to turn the tables on him.
 description: Meet Franklin Hart (Dabney Coleman). The biggest "sexist, egotistical,

@@ -10,7 +10,7 @@ imdb-link: https://www.imdb.com/title/tt4664244/
 classification: '15'
 main-image: resources/sanctuary.jpg
 alt-text: Len Collin, 2016
-youtube: https://youtu.be/ybI2HGl9JQc
+youtube: https://www.youtube.com/embed/ybI2HGl9JQc
 short-description: Larry and Sophie, two people with intellectual disabilities, long
   to be together in a world that does everything to keep them apart.
 description: Larry and Sophie, two people with intellectual disabilities, long to
