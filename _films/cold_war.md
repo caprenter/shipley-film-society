@@ -10,7 +10,7 @@ imdb-link: https://www.imdb.com/title/tt6543652/
 classification: '15'
 main-image: resources/coldwar.jpg
 alt-text: Pawel Pawlikowski, 2018
-youtube: https://youtu.be/8ImvkXgGVWw
+youtube: https://www.youtube.com/embed/8ImvkXgGVWw
 short-description: In the 1950s, a music director falls in love with a singer and
   tries to persuade her to flee communist Poland for France.
 description: A passionate love story between two people of different backgrounds and
