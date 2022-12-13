@@ -9,4 +9,4 @@
 
 {% if film.doors %}Doors: {{ film.doors | date: "%l:%M%P" }} <br/>{% endif %}
 {% if film.start %}Film Starts: {{ film.start | date: "%l:%M%P" }} <br/>{% endif %}
-{% if film.price %}£{{ film.price }} / £{{ film.discounted }} (unwaged)  {% endif %}
+{% if film.price %}{% if film.price.size > 5 %}{{ film.price }}{% else %}£{{ film.price }} / £{{ film.discounted }} (unwaged)  {% endif %}{% endif %}
