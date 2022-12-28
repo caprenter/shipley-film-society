@@ -25,7 +25,7 @@ cover: /assets/images/resources/nightonearth.jpg
             <h2 class="page-title">Our Next Film</h2>
 
 
-            <!-- TODO: This film listing format could be turned into an include-->
+<!-- TODO: This film listing format could be turned into an include-->
 <div class="next-film" markdown="1">
 # {{ film.film-title }}
 {{ film.screening-date | date: "%A %d %B %Y" | markdownify }}{:class="page-description"}
@@ -35,7 +35,7 @@ cover: /assets/images/resources/nightonearth.jpg
     Certificate: {{ film.classification }}<br>
     Doors: {{ film.doors | date: "%l:%M%P" }}<br>
     Film Starts: {{ film.start | date: "%l:%M%P" }}<br>
-    £{{ film.price }} / £{{ film.discounted }} (unwaged)
+    {% if film.price %}{% if film.price.size > 5 %}{{ film.price }}{% else %}£{{ film.price }} / £{{ film.discounted }} (unwaged)  {% endif %}{% endif %}
 </p>
 </div>
         </div>
