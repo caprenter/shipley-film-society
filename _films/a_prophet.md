@@ -11,7 +11,7 @@ classification: '18'
 main-image: resources/aprophetbackdrop.jpg
 alt-text: 
 youtube: https://www.youtube.com/embed/YWmIpiEJ1ms?rel=0&amp
-short-description: showinfo=0
+short-description: 
 description: 
 permalink: "/films/a_prophet.html"
 layout: film
