@@ -19,21 +19,17 @@ navigation: true
 {% endif %}
 {% endfor %}
 
-
-<div id="past-films" markdown="1">
 # Previous Films
+<div id="past-films" markdown="1" class="flex-container">
 {% assign films = site.data.films | sort: "film-title" %}
 {% for film in films %}
 {% if film.screening-date < dateToday  %}
-<div class="film-item" markdown="1">
-## [{{ film.film-title }}]({{ site.url }}/films/{{ film.our-id }})
+<div class="film-item flex-item" markdown="1">
+#### [{{ film.film-title }}]({{ site.url }}/films/{{ film.our-id }})
 {{ film.screening-date | date: "%A %d %B %Y" }}
 {:class="film-date"}
 {% if film.main-image %}
 ![{{ film.film-title }}](/assets/images/{{ film.main-image }}){:class="img-responsive"}
-{% endif %}
-{% if film.imdb-link %}
-[{{ film.film-title }} on IMDB]({{ film.imdb-link }})
 {% endif %}
 </div>
 {% endif %}
