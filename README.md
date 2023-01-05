@@ -39,11 +39,15 @@ as existing files are not updated when pagemaster runs
 1. Update the csv file. Fill in all the fields. Get the data from IMDB and YouTube.
 1. Find and save a film image to the `assets/images/resources` directory. Image size is 1280x685px.
 1. You will need to generate the individual film page<br>
+Delete `./_films/`
 Run `bundle exec jekyll pagemaster films`
 1. Change the `our-id` value in `index.md`
 1. Run `bundle exec jekyll serve` to check the site
 1. Commit changes and make a pull request to `main`
 
+### Getting your changes live
+1. Having gotten your changes into `main` raise a PR to merge the changes into `gh-pages`
+1. Once this is merged `Re-run all jobs` in the last `workflow run` of `pages-build-deployment` under github actions
 
 ## Home Page
 Use a mixture of `index.md` and `_includes/main.md` to curate content on the homepage.
