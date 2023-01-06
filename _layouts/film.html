@@ -15,12 +15,12 @@ layout: default
 
         <section class="post-content main-page">
 
-        {% if page.classification %}<div class="film-screening-info">Certificate: {{ page.classification }}</div>{% endif %}
-        {% if page.screening-date %}<div class="film-screening-info">{{ page.screening-date | date: "%A %d %B %Y" }}</div>{% endif %}
-        {% if page.screening-date > dateToday  %}{% if page.doors %}<div class="film-screening-info">Doors: {{ page.doors | date: "%l:%M%P" }}</div>{% endif %}
-        {% if page.start %}<div class="film-screening-info">Film Starts: {{ page.start | date: "%l:%M%P" }}</div>{% endif %}
+        {% if page.classification %}<div class="film-screening-info certificate">Certificate: {{ page.classification }}</div>{% endif %}
+        {% if page.screening-date %}<div class="film-screening-info date">{{ page.screening-date | date: "%A %d %B %Y" }}</div>{% endif %}
+        {% if page.screening-date > dateToday  %}{% if page.doors %}<div class="film-screening-info doors">Doors: {{ page.doors | date: "%l:%M%P" }}</div>{% endif %}
+        {% if page.start %}<div class="film-screening-info starts">Film Starts: {{ page.start | date: "%l:%M%P" }}</div>{% endif %}
         {% if page.price %}
-            <div class="film-screening-info">
+            <div class="film-screening-info price">
             {% if page.price.size > 5 %}{{ page.price }}
             {% elsif page.discounted %}Admission: £{{ page.price }}/£{{ page.discounted}} (unwaged)
             {% else %}Admission: £{{ page.price }}
@@ -30,7 +30,7 @@ layout: default
         {% endif %}
 
         {% if page.main-image %}
-            <div class="img-responsive">
+            <div class="img-responsive poster-img">
             {% if page.alt-text %}<img src="/assets/images/{{ page.main-image }}" alt="{{ page.alt-text }}">
             {% else %}<img src="/assets/images/{{ page.main-image }}">
             {% endif %}
@@ -38,12 +38,12 @@ layout: default
             </div><br>
         {% endif %}
 
-        {% if page.description %}<div>{{ page.description | markdownify }}</div><br>
-        {% elsif page.short-description %}<div>{{ page.short-description }}</div><br>
+        {% if page.description %}<div class="long-description">{{ page.description | markdownify }}</div><br>
+        {% elsif page.short-description %}<div class="long-description">{{ page.short-description }}</div><br>
         {% endif %}
 
         {% if page.screening-date > dateToday  %}
-        <div>{% include bar-info.md %}</div><br>
+        <div class="bar">{% include bar-info.md %}</div><br>
         {% endif %}
         
         {% if page.imdb-link %}{% include imdb-link.md %}{% endif %}
