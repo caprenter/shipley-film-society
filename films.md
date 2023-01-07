@@ -32,9 +32,6 @@ navigation: true
 {% if film.main-image %}
 ![{{ film.film-title }}](/assets/images/{{ film.main-image }}){:class="img-responsive"}
 {% endif %}
-{% if film.imdb-link %}
-[{{ film.film-title }} on IMDB]({{ film.imdb-link }})
-{% endif %}
 </div>
 {% endif %}
 
