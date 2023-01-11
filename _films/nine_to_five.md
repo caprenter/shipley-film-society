@@ -4,8 +4,8 @@ film-title: 9 to 5
 screening-date: '2023-01-27'
 doors: '19:30:00'
 start: '20:00:00'
-price: 'Price: January is always a foodbank benefit showing. Please bring the value
-  of a cinema ticket (approx £5) in non-perishable food and/or cash. '
+price: 'January is always a foodbank benefit showing. Please bring the value of a
+  cinema ticket (approx £5) in non-perishable food and/or cash. '
 discounted: 
 imdb-link: https://www.imdb.com/title/tt0080319/
 classification: '15'
