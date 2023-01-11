@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    color: #000;
+    background-color: #fff;
+  }
+
+header, 
+footer, 
+aside, 
+nav, 
+form, 
+iframe, 
+.menu, 
+.hero, 
+.adslot, 
+.topnav-right,
+.video-container,
+.imdb,
+.poster-img em,
+.long-description,
+.short-description {
+display: none;
+}
+
+.identity {
+    width: 410px;
+    float: none;
+    display:block;
+    margin: auto;
+    text-align:center;
+}
+.no-cover.post-head.main-header {
+  height: 0;
+}
+
+.no-cover.post-head.main-header::before {
+  content: "Presents ";
+}
+  
+body:not(.post-template) .post-title {
+  font-size: 60pt;
+}
+
+header.post-header {
+  display:block;
+}
+
+h1.post-title {
+  display:block;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.post {
+  margin: 0 auto;
+  padding-bottom: 0;
+  border-bottom: none;
+  text-align:center;
+}
+
+.post:after {
+  content: none;
+}
+
+
+.date {
+    font-size: 20pt;
+    text-align: center;
+    margin-bottom: 0em;
+}
+
+.certificate {
+  margin-bottom: 1em;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+.post-content img {
+    max-width: 120%;
+}
+
+.starts, .price, .doors {
+  font-size: 1.1em;
+}
+.price {
+  font-size: 1em;
+}
+
+.price {
+  padding-bottom: 0;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.bar {
+  padding-bottom:1em;
+  /*text-align: center;*/
+  font-size: 12pt;
+}
+
+.bar::before {
+  font-size: 24pt;
+  line-height:20pt;
+  font-family: auto;
+  margin: 0.5em 0 0.5em 0;
+  display: block;
+  /*text-align: center;*/
+  content: "www.shipleyfilmsociety.org.uk";
+}
+
+.bar::after {
+  font-size: 12pt;
+  line-height:12pt;
+  font-family: auto;
+  margin: 0.5em 0 0;
+  display: block;
+  /*text-align: center;*/
+  content: "Kirkgate Centre, 39a Kirkgate, Shipley, BD18 3EH"
+}
+
+
+
+/*
+.long-description {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  word-break: var(--word-break, 'none');
+  overflow: hidden;
+  hyphens: auto;
+  text-align: var(--align, left);
+  
+  // Automatically use "word-break: break-all" for single-lines
+  // (https://css-tricks.com/css-switch-case-conditions)
+  --is-single-line: 1 - Clamp(0, Calc(var(--line-clamp) - 1), var(--line-clamp));
+  --delay: Calc(-1s * (var(--is-single-line, 1) - 1)); 
+  animation: states 1s var(--delay) paused; 
+  
+  @keyframes states {
+      0% { word-break: break-all; }       
+  }
+}
+*/
+

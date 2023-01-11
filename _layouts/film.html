@@ -15,45 +15,44 @@ layout: default
 
         <section class="post-content main-page">
 
-        {% if page.classification %}<div class="film-screening-info">Certificate: {{ page.classification }}</div>{% endif %}
-        {% if page.screening-date %}<div class="film-screening-info">{{ page.screening-date | date: "%A %d %B %Y" }}</div>{% endif %}
-        {% if page.screening-date > dateToday  %}{% if page.doors %}<div class="film-screening-info">Doors: {{ page.doors | date: "%l:%M%P" }}</div>{% endif %}
-        {% if page.start %}<div class="film-screening-info">Film Starts: {{ page.start | date: "%l:%M%P" }}</div>{% endif %}
+        {% if page.classification %}<div class="film-screening-info certificate">Certificate: {{ page.classification }}</div>{% endif %}
+        {% if page.screening-date %}<div class="film-screening-info date">{{ page.screening-date | date: "%A %d %B %Y" }}</div>{% endif %}
+        
+
+        {% if page.main-image %}
+            <div class="img-responsive poster-img">
+            {% if page.alt-text %}<img src="/assets/images/{{ page.main-image }}" alt="{{ page.alt-text }}">
+            {% else %}<img src="/assets/images/{{ page.main-image }}">
+            {% endif %}
+            {% if page.alt-text %}<em>{{ page.alt-text }}</em>{% endif %}
+            </div>
+        {% endif %}
+
+        {% if page.screening-date > dateToday  %}{% if page.doors %}<div class="film-screening-info doors"><span class="label">Doors:</span> {{ page.doors | date: "%l:%M%P" }}</div>{% endif %}
+        {% if page.start %}<div class="film-screening-info starts"><span class="label">Film Starts:</span> {{ page.start | date: "%l:%M%P" }}</div>{% endif %}
         {% if page.price %}
-            <div class="film-screening-info">
+            <div class="film-screening-info price"><span class="label">Admission:</span> 
             {% if page.price.size > 5 %}{{ page.price }}
-            {% elsif page.discounted %}Admission: £{{ page.price }}/£{{ page.discounted}} (unwaged)
-            {% else %}Admission: £{{ page.price }}
+            {% elsif page.discounted %}£{{ page.price }}/£{{ page.discounted}} (unwaged)
+            {% else %}£{{ page.price }}
             {% endif %}
             </div>
         {% endif %}
         {% endif %}
 
-        {% if page.main-image %}
-            <div class="img-responsive">
-            {% if page.alt-text %}<img src="/assets/images/{{ page.main-image }}" alt="{{ page.alt-text }}">
-            {% else %}<img src="/assets/images/{{ page.main-image }}">
-            {% endif %}
-            {% if page.alt-text %}<em>{{ page.alt-text }}</em>{% endif %}
-            </div><br>
-        {% endif %}
-
-        {% if page.description %}<div>{{ page.description | markdownify }}</div><br>
-        {% elsif page.short-description %}<div>{{ page.short-description }}</div><br>
+        {% if page.description %}<div class="long-description">{{ page.description | markdownify }}</div>
+        {% elsif page.short-description %}<div class="long-description">{{ page.short-description }}</div>
         {% endif %}
 
         {% if page.screening-date > dateToday  %}
-        <div>{% include bar-info.md %}</div><br>
+        <div class="bar">{% include bar-info.md %}</div>
         {% endif %}
-        
         {% if page.imdb-link %}{% include imdb-link.md %}{% endif %}
-
         {% if page.youtube %}
             <div class="video-container">
             <iframe width="560" height="315" src="{{ page.youtube }}" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         {% endif %}
-
         </section>
     </article>
 </main>
