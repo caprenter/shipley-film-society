@@ -10,7 +10,7 @@ imdb-link:
 classification: 
 main-image: resources/wastelandbackdrop.jpg
 alt-text: 
-youtube: https://www.youtube.com/embed/sNlwh8vT2NU
+youtube: https://www.youtube-nocookie.com/embed/sNlwh8vT2NU
 short-description: 
 description: 
 permalink: "/films/wasteland.html"

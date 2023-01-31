@@ -10,7 +10,7 @@ imdb-link:
 classification: '15'
 main-image: resources/bpm2.jpg
 alt-text: 
-youtube: https://www.youtube.com/embed/UVAw7JfTqBU
+youtube: https://www.youtube-nocookie.com/embed/UVAw7JfTqBU
 short-description: 
 description: 
 permalink: "/films/bpm.html"

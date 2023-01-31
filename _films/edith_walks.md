@@ -10,7 +10,7 @@ imdb-link:
 classification: n/a
 main-image: resources/edithwalks2.jpg
 alt-text: 
-youtube: https://www.youtube.com/embed/3DvGz0fa0Ig
+youtube: https://www.youtube-nocookie.com/embed/3DvGz0fa0Ig
 short-description: 
 description: 
 permalink: "/films/edith_walks.html"

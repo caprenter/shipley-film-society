@@ -10,7 +10,7 @@ imdb-link:
 classification: '15'
 main-image: resources/captainfantastic.jpg
 alt-text: 
-youtube: https://www.youtube.com/embed/D1kH4OMIOMc
+youtube: https://www.youtube-nocookie.com/embed/D1kH4OMIOMc
 short-description: 
 description: 
 permalink: "/films/captain_fantastic.html"

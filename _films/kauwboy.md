@@ -10,7 +10,7 @@ imdb-link:
 classification: n/a
 main-image: resources/kauwboybackdrop.jpg
 alt-text: 
-youtube: https://www.youtube.com/embed/5U0PbNz19ng
+youtube: https://www.youtube-nocookie.com/embed/5U0PbNz19ng
 short-description: 
 description: 
 permalink: "/films/kauwboy.html"
