@@ -10,7 +10,7 @@ imdb-link:
 classification: '15'
 main-image: resources/forcemajeure3.jpg
 alt-text: 
-youtube: https://www.youtube.com/embed/fjjzVbTBF8o
+youtube: https://www.youtube-nocookie.com/embed/fjjzVbTBF8o
 short-description: 
 description: 
 permalink: "/films/force_majeure.html"

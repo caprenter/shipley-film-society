@@ -10,7 +10,7 @@ imdb-link:
 classification: n/a
 main-image: resources/liberationday1.jpg
 alt-text: 
-youtube: https://www.youtube.com/embed/WBuYjttUQn8
+youtube: https://www.youtube-nocookie.com/embed/WBuYjttUQn8
 short-description: 
 description: 
 permalink: "/films/liberation_day.html"
