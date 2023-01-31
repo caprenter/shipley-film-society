@@ -10,7 +10,7 @@ imdb-link:
 classification: '15'
 main-image: resources/RussianArk_1.jpg
 alt-text: Russian Ark, A. Sokurov, Russia, 2002
-youtube: https://www.youtube.com/embed/ZV1kphEEXn8
+youtube: https://www.youtube-nocookie.com/embed/ZV1kphEEXn8
 short-description: 'The first feature film shot in a single take, Russian Ark takes
   us through a museum to visit ghosts of the past, from a tyrannical Peter the Great
   to the doomed Tzar Nicholas II.  '

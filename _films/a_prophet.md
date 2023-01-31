@@ -10,7 +10,7 @@ imdb-link:
 classification: '18'
 main-image: resources/aprophetbackdrop.jpg
 alt-text: 
-youtube: https://www.youtube.com/embed/YWmIpiEJ1ms?rel=0&amp
+youtube: https://www.youtube-nocookie.com/embed/YWmIpiEJ1ms?rel=0&amp
 short-description: 
 description: 
 permalink: "/films/a_prophet.html"

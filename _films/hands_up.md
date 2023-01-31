@@ -10,7 +10,7 @@ imdb-link:
 classification: 
 main-image: resources/handsupbackdrop.jpg
 alt-text: 
-youtube: https://www.youtube.com/embed/Ji7ZlzNXpzI
+youtube: https://www.youtube-nocookie.com/embed/Ji7ZlzNXpzI
 short-description: 
 description: 
 permalink: "/films/hands_up.html"

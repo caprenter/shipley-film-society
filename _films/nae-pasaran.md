@@ -11,7 +11,7 @@ imdb-link:
 classification: '15'
 main-image: resources/NaePasaranbackdrop.jpg
 alt-text: 
-youtube: https://www.youtube.com/embed/VD6d0xKZNRg
+youtube: https://www.youtube-nocookie.com/embed/VD6d0xKZNRg
 short-description: 
 description: 
 permalink: "/films/nae-pasaran.html"

@@ -10,7 +10,7 @@ imdb-link:
 classification: U
 main-image: resources/manwithamoviecamerabackground.jpg
 alt-text: 
-youtube: https://www.youtube.com/embed/BtTlgxtoqhg
+youtube: https://www.youtube-nocookie.com/embed/BtTlgxtoqhg
 short-description: 
 description: 
 permalink: "/films/man_with_a_movie_camera.html"

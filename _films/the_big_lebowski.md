@@ -10,7 +10,7 @@ imdb-link:
 classification: 
 main-image: resources/barbara.jpg
 alt-text: 
-youtube: https://www.youtube.com/embed/q_Pn9zwhJtI
+youtube: https://www.youtube-nocookie.com/embed/q_Pn9zwhJtI
 short-description: 
 description: 
 permalink: "/films/the_big_lebowski.html"

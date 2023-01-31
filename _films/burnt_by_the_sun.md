@@ -10,7 +10,7 @@ imdb-link:
 classification: '15'
 main-image: resources/burntbythesunbackdrop.jpg
 alt-text: 
-youtube: https://www.youtube.com/embed/J8sRJ-zAMFk
+youtube: https://www.youtube-nocookie.com/embed/J8sRJ-zAMFk
 short-description: 
 description: 
 permalink: "/films/burnt_by_the_sun.html"

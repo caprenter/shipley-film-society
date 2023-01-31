@@ -10,7 +10,7 @@ imdb-link: https://www.imdb.com/title/tt0114478/
 classification: '15'
 main-image: resources/smoke.jpg
 alt-text: Smoke, Wayne Wang, 1995
-youtube: https://www.youtube.com/embed/3v8r-ec4V2M
+youtube: https://www.youtube-nocookie.com/embed/3v8r-ec4V2M
 short-description: A Brooklyn smoke shop is the centre of neighbourhood activity,
   and the stories of its customers
 description: 

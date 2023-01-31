@@ -1900,8 +1900,9 @@ figcaption {
 
 .copyright {
     display: block;
-    width: 45%;
     float: left;
+    padding-left:1.5%;
+    margin-top: 1em;
 }
 
 
