@@ -10,7 +10,7 @@ imdb-link: https://www.imdb.com/title/tt5859238/
 classification: '15'
 main-image: resources/lucky.jpg
 alt-text: Lucky, John Carroll Lynch, 2017
-youtube: https://www.youtube.com/embed/2KLLkj84GAo
+youtube: https://www.youtube-nocookie.com/embed/2KLLkj84GAo
 short-description: Having out lived and out smoked all of his contemporaries, the
   fiercely independent Lucky finds himself at the precipice of life.
 description: 'LUCKY follows the spiritual journey of a 90-year-old atheist and the

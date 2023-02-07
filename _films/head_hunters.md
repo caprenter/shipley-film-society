@@ -10,7 +10,7 @@ imdb-link:
 classification: PG
 main-image: resources/headhuntersbackdrop.jpg
 alt-text: 
-youtube: https://www.youtube.com/embed/5am704I0zkM
+youtube: https://www.youtube-nocookie.com/embed/5am704I0zkM
 short-description: 
 description: 
 permalink: "/films/head_hunters.html"

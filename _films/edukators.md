@@ -10,7 +10,7 @@ imdb-link:
 classification: '15'
 main-image: resources/edukators.jpg
 alt-text: 
-youtube: https://www.youtube.com/embed/UyT8bEa4XYA
+youtube: https://www.youtube-nocookie.com/embed/UyT8bEa4XYA
 short-description: 
 description: 
 permalink: "/films/edukators.html"

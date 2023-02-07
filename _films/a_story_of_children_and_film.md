@@ -10,7 +10,7 @@ imdb-link:
 classification: PG
 main-image: resources/childrenfilmbackdrop.jpg
 alt-text: 
-youtube: https://www.youtube.com/embed/ZX9Z9oP85_w
+youtube: https://www.youtube-nocookie.com/embed/ZX9Z9oP85_w
 short-description: 
 description: 
 permalink: "/films/a_story_of_children_and_film.html"

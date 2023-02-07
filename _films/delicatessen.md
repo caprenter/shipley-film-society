@@ -10,7 +10,7 @@ imdb-link:
 classification: '15'
 main-image: resources/delicatessen.jpg
 alt-text: 
-youtube: https://www.youtube.com/embed/GVL5_I4CvTc
+youtube: https://www.youtube-nocookie.com/embed/GVL5_I4CvTc
 short-description: 
 description: 
 permalink: "/films/delicatessen.html"

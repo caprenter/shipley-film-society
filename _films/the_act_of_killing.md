@@ -10,7 +10,7 @@ imdb-link: https://www.imdb.com/title/tt2375605/
 classification: '15'
 main-image: resources/actofkillingbackdrop.jpg
 alt-text: 
-youtube: https://www.youtube.com/embed/SD5oMxbMcHM
+youtube: https://www.youtube-nocookie.com/embed/SD5oMxbMcHM
 short-description: 
 description: 
 permalink: "/films/the_act_of_killing.html"
