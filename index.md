@@ -8,9 +8,9 @@ current: home
 #Use 'our_id' below for the next film to be shown. The id is in the csv file
 # we use {% assign film = site.data.films | where:"our-id", page.our-id | first  %}
 # in _includes/head.html to make use of the data below using e.g. film.main-image
-our-id: "riders_of_justice"
+our-id: "no_film"
 # Defaults to use if no 'next film'
-cover: /assets/images/resources/nightonearth.jpg
+cover: /assets/images/resources/collage.jpg
 
 ---
 <!-- < default -->
@@ -22,7 +22,7 @@ cover: /assets/images/resources/nightonearth.jpg
 
     <div class="vertical">
         <div class="main-header-content inner">
-            <h2 class="page-title">Our Next Film</h2>
+            <!--<h2 class="page-title">Our Next Film</h2>-->
 
 
 <!-- TODO: This film listing format could be turned into an include-->
@@ -30,13 +30,13 @@ cover: /assets/images/resources/nightonearth.jpg
 # {{ film.film-title }}
 {{ film.screening-date | date: "%A %d %B %Y" | markdownify }}{:class="page-description"}
 {{ film.short-description | markdownify }}{:class="page-description"}
-<p class="page-description">
+<!--<p class="page-description">
     at The Kirkgate Centre, Shipley<br>
     Certificate: {{ film.classification }}<br>
     Doors: {{ film.doors | date: "%l:%M%P" }}<br>
     Film Starts: {{ film.start | date: "%l:%M%P" }}<br>
     {% if film.price %}{% if film.price.size > 5 %}{{ film.price }}{% else %}£{{ film.price }} / £{{ film.discounted }} (unwaged)  {% endif %}{% endif %}
-</p>
+</p>-->
 </div>
         </div>
     </div>

@@ -8,7 +8,7 @@ navigation: true
 
 {% assign dateToday = 'now' | date: "%Y-%m-%d" %}
 
-# Upcoming Films
+<!--# Upcoming Films-->
 
 {% assign films = site.data.films | sort: "screening-date" | reversed  %}
 {% for film in films %}
